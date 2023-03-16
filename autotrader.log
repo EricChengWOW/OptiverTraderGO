@@ -1,0 +1,1313 @@
+2023-03-15 22:03:28.947454 [INFO   ] [APP] application started
+2023-03-15 22:03:28.947477 [INFO   ] [APP] loading configuration from 'autotrader.json'
+2023-03-15 22:03:28.947558 [INFO   ] [CON] connecting to: 127.0.0.1:12345
+2023-03-15 22:03:28.947647 [INFO   ] [CON] connected successfully to: 127.0.0.1:12345
+2023-03-15 22:03:28.947669 [INFO   ] [BASE] logging in with teamname='TraderOne' and secret='secret'
+2023-03-15 22:03:32.125235 [INFO   ] [AUTO] Hedge Buying Order1 for price 146700 vol 48 diff is 300 event 1 position 0
+2023-03-15 22:03:32.441595 [INFO   ] [AUTO] Hedge Buying Order2 for price 146800 vol 32 diff is 200 event 2 position 0
+2023-03-15 22:03:32.612168 [INFO   ] [AUTO] Hedge Buying Order3 for price 146900 vol 16 diff is 100 event 3 position 0
+2023-03-15 22:03:33.390326 [INFO   ] [AUTO] order 3 filled for 16 lots at $146900 cents 2 events
+2023-03-15 22:03:33.390351 [INFO   ] [AUTO] Hedging 16 SELLLL
+2023-03-15 22:03:33.390378 [INFO   ] [AUTO] Current Position is 16 to buy 80 to sell 0
+2023-03-15 22:03:33.390420 [INFO   ] [AUTO] order 2 filled for 32 lots at $146800 cents 3 events
+2023-03-15 22:03:33.390425 [INFO   ] [AUTO] Hedging 32 SELLLL
+2023-03-15 22:03:33.390438 [INFO   ] [AUTO] Current Position is 48 to buy 48 to sell 0
+2023-03-15 22:03:33.390489 [INFO   ] [AUTO] order 1 filled for 23 lots at $146700 cents 4 events
+2023-03-15 22:03:33.390494 [INFO   ] [AUTO] Hedging 23 SELLLL
+2023-03-15 22:03:33.390504 [INFO   ] [AUTO] Current Position is 71 to buy 25 to sell 0
+2023-03-15 22:03:33.876738 [INFO   ] [AUTO] Hedge Buying Order7 for price 146400 vol 4 diff is 300 event 5 position 71
+2023-03-15 22:03:34.161417 [INFO   ] [AUTO] Hedge Buying Order8 for price 146500 vol 25 diff is 400 event 6 position 71
+2023-03-15 22:03:34.397886 [INFO   ] [AUTO] Hedge Selling Order9 for price 147100 vol 16 diff is 100 event 7 position 71
+2023-03-15 22:03:34.548527 [INFO   ] [AUTO] order 8 filled for 17 lots at $146500 cents 7 events
+2023-03-15 22:03:34.548553 [INFO   ] [AUTO] Hedging 17 SELLLL
+2023-03-15 22:03:34.548580 [INFO   ] [AUTO] Current Position is 88 to buy 12 to sell 16
+2023-03-15 22:03:35.395788 [INFO   ] [AUTO] order 8 filled for 8 lots at $146500 cents 3 events
+2023-03-15 22:03:35.395816 [INFO   ] [AUTO] Hedging 8 SELLLL
+2023-03-15 22:03:35.395836 [INFO   ] [AUTO] Current Position is 96 to buy 4 to sell 16
+2023-03-15 22:03:35.894378 [INFO   ] [AUTO] Hedge Buying Order12 for price 146500 vol 4 diff is 200 event 3 position 96
+2023-03-15 22:03:36.623055 [INFO   ] [AUTO] Hedge Selling Order13 for price 147100 vol 16 diff is 100 event 3 position 96
+2023-03-15 22:03:36.950205 [INFO   ] [AUTO] Hedge Selling Order14 for price 147000 vol 16 diff is 100 event 2 position 96
+2023-03-15 22:03:36.950232 [INFO   ] [AUTO] Paying the fee
+2023-03-15 22:03:36.953451 [INFO   ] [AUTO] order 14 filled for 16 lots at $147000 cents 2 events
+2023-03-15 22:03:36.953462 [INFO   ] [AUTO] Hedging -16 BUYYYY
+2023-03-15 22:03:36.953475 [INFO   ] [AUTO] Current Position is 80 to buy 4 to sell 16
+2023-03-15 22:03:37.122892 [INFO   ] [AUTO] Hedge Selling Order16 for price 147000 vol 32 diff is 200 event 4 position 80
+2023-03-15 22:03:37.122925 [INFO   ] [AUTO] Paying the fee
+2023-03-15 22:03:37.126516 [INFO   ] [AUTO] order 16 filled for 32 lots at $147000 cents 4 events
+2023-03-15 22:03:37.126531 [INFO   ] [AUTO] Hedging -32 BUYYYY
+2023-03-15 22:03:37.126548 [INFO   ] [AUTO] Current Position is 48 to buy 4 to sell 16
+2023-03-15 22:03:37.433435 [INFO   ] [AUTO] Hedge Selling Order18 for price 147000 vol 48 diff is 300 event 6 position 48
+2023-03-15 22:03:37.433462 [INFO   ] [AUTO] Paying the fee
+2023-03-15 22:03:37.434193 [INFO   ] [AUTO] order 18 filled for 48 lots at $147000 cents 7 events
+2023-03-15 22:03:37.434200 [INFO   ] [AUTO] Hedging -48 BUYYYY
+2023-03-15 22:03:37.434211 [INFO   ] [AUTO] Current Position is 0 to buy 4 to sell 16
+2023-03-15 22:03:37.489697 [INFO   ] [AUTO] order 13 filled for 16 lots at $147100 cents 8 events
+2023-03-15 22:03:37.489726 [INFO   ] [AUTO] Hedging -16 BUYYYY
+2023-03-15 22:03:37.489756 [INFO   ] [AUTO] Current Position is -16 to buy 4 to sell 0
+2023-03-15 22:03:37.676592 [INFO   ] [AUTO] Hedge Selling Order21 for price 147100 vol 32 diff is 200 event 9 position -16
+2023-03-15 22:03:39.185097 [INFO   ] [AUTO] Hedge Buying Order22 for price 146500 vol 48 diff is 300 event 1 position -16
+2023-03-15 22:03:39.399220 [INFO   ] [AUTO] Hedge Buying Order23 for price 146700 vol 16 diff is 100 event 3 position -16
+2023-03-15 22:03:39.399244 [INFO   ] [AUTO] Hedge Selling Order24 for price 147100 vol 16 diff is 100 event 4 position -16
+2023-03-15 22:03:39.642167 [INFO   ] [AUTO] Hedge Selling Order25 for price 147000 vol 16 diff is 100 event 5 position -16
+2023-03-15 22:03:39.805692 [INFO   ] [AUTO] order 23 filled for 16 lots at $146700 cents 5 events
+2023-03-15 22:03:39.805718 [INFO   ] [AUTO] Hedging 16 SELLLL
+2023-03-15 22:03:39.805745 [INFO   ] [AUTO] Current Position is 0 to buy 48 to sell 32
+2023-03-15 22:03:39.805779 [INFO   ] [AUTO] order 22 filled for 48 lots at $146500 cents 6 events
+2023-03-15 22:03:39.805782 [INFO   ] [AUTO] Hedging 48 SELLLL
+2023-03-15 22:03:39.805795 [INFO   ] [AUTO] Current Position is 48 to buy 0 to sell 32
+2023-03-15 22:03:39.938443 [INFO   ] [AUTO] Hedge Buying Order28 for price 146300 vol 52 diff is 400 event 8 position 48
+2023-03-15 22:03:41.875561 [INFO   ] [AUTO] Hedge Buying Order29 for price 146700 vol 48 diff is 300 event 4 position 48
+2023-03-15 22:03:42.134141 [INFO   ] [AUTO] Hedge Buying Order30 for price 146800 vol 4 diff is 200 event 4 position 48
+2023-03-15 22:03:42.866810 [INFO   ] [AUTO] Hedge Selling Order31 for price 147300 vol 32 diff is 200 event 3 position 48
+2023-03-15 22:03:43.185191 [INFO   ] [AUTO] Hedge Selling Order32 for price 147200 vol 16 diff is 100 event 2 position 48
+2023-03-15 22:03:44.194012 [INFO   ] [AUTO] Hedge Buying Order33 for price 146700 vol 32 diff is 200 event 4 position 48
+2023-03-15 22:03:44.366601 [INFO   ] [AUTO] Hedge Buying Order34 for price 146800 vol 16 diff is 100 event 4 position 48
+2023-03-15 22:03:45.119229 [INFO   ] [AUTO] Hedge Buying Order35 for price 146900 vol 4 diff is 100 event 5 position 48
+2023-03-15 22:03:45.242891 [INFO   ] [AUTO] order 35 filled for 4 lots at $146900 cents 5 events
+2023-03-15 22:03:45.242916 [INFO   ] [AUTO] Hedging 4 SELLLL
+2023-03-15 22:03:45.242942 [INFO   ] [AUTO] Current Position is 52 to buy 48 to sell 48
+2023-03-15 22:03:46.185996 [INFO   ] [AUTO] Hedge Buying Order37 for price 146700 vol 32 diff is 200 event 4 position 52
+2023-03-15 22:03:47.926136 [INFO   ] [AUTO] Hedge Buying Order38 for price 146700 vol 16 diff is 100 event 2 position 52
+2023-03-15 22:03:48.402276 [INFO   ] [AUTO] Hedge Buying Order39 for price 146800 vol 32 diff is 200 event 3 position 52
+2023-03-15 22:03:48.853306 [INFO   ] [AUTO] order 39 filled for 32 lots at $146800 cents 3 events
+2023-03-15 22:03:48.853334 [INFO   ] [AUTO] Hedging 32 SELLLL
+2023-03-15 22:03:48.853360 [INFO   ] [AUTO] Current Position is 84 to buy 16 to sell 48
+2023-03-15 22:03:48.853445 [INFO   ] [AUTO] order 38 filled for 16 lots at $146700 cents 3 events
+2023-03-15 22:03:48.853451 [INFO   ] [AUTO] Hedging 16 SELLLL
+2023-03-15 22:03:48.853463 [INFO   ] [AUTO] Current Position is 100 to buy 0 to sell 48
+2023-03-15 22:04:06.458863 [INFO   ] [AUTO] Hedge Selling Order42 for price 147400 vol 16 diff is 100 event 1 position 100
+2023-03-15 22:04:08.120799 [INFO   ] [AUTO] Hedge Selling Order43 for price 147400 vol 16 diff is 100 event 2 position 100
+2023-03-15 22:04:11.443064 [INFO   ] [AUTO] Hedge Selling Order44 for price 147600 vol 32 diff is 200 event 1 position 100
+2023-03-15 22:04:11.671115 [INFO   ] [AUTO] Hedge Selling Order45 for price 147500 vol 16 diff is 100 event 2 position 100
+2023-03-15 22:04:13.001667 [INFO   ] [AUTO] order 45 filled for 8 lots at $147500 cents 1 events
+2023-03-15 22:04:13.001730 [INFO   ] [AUTO] Hedging -8 BUYYYY
+2023-03-15 22:04:13.001762 [INFO   ] [AUTO] Current Position is 92 to buy 0 to sell 40
+2023-03-15 22:04:13.420982 [INFO   ] [AUTO] Hedge Selling Order47 for price 147600 vol 32 diff is 200 event 4 position 92
+2023-03-15 22:04:13.649467 [INFO   ] [AUTO] Hedge Buying Order48 for price 147200 vol 8 diff is 100 event 5 position 92
+2023-03-15 22:04:14.115196 [INFO   ] [AUTO] Hedge Selling Order49 for price 147500 vol 16 diff is 100 event 4 position 92
+2023-03-15 22:04:15.633250 [INFO   ] [AUTO] Hedge Buying Order50 for price 147200 vol 8 diff is 200 event 3 position 92
+2023-03-15 22:04:15.931211 [INFO   ] [AUTO] Hedge Selling Order51 for price 147600 vol 16 diff is 100 event 5 position 92
+2023-03-15 22:04:16.428939 [INFO   ] [AUTO] Hedge Selling Order52 for price 147500 vol 32 diff is 200 event 4 position 92
+2023-03-15 22:04:17.638957 [INFO   ] [AUTO] Hedge Selling Order53 for price 147400 vol 16 diff is 100 event 3 position 92
+2023-03-15 22:04:17.639020 [INFO   ] [AUTO] Paying the fee
+2023-03-15 22:04:17.642079 [INFO   ] [AUTO] order 53 filled for 16 lots at $147400 cents 3 events
+2023-03-15 22:04:17.642099 [INFO   ] [AUTO] Hedging -16 BUYYYY
+2023-03-15 22:04:17.642127 [INFO   ] [AUTO] Current Position is 76 to buy 8 to sell 32
+2023-03-15 22:04:18.114236 [INFO   ] [AUTO] Hedge Selling Order55 for price 147600 vol 48 diff is 300 event 6 position 76
+2023-03-15 22:04:18.357815 [INFO   ] [AUTO] Hedge Selling Order56 for price 147500 vol 16 diff is 100 event 6 position 76
+2023-03-15 22:04:18.454708 [INFO   ] [AUTO] order 56 filled for 16 lots at $147500 cents 6 events
+2023-03-15 22:04:18.454771 [INFO   ] [AUTO] Hedging -16 BUYYYY
+2023-03-15 22:04:18.454813 [INFO   ] [AUTO] Current Position is 60 to buy 8 to sell 48
+2023-03-15 22:04:18.454839 [INFO   ] [AUTO] order 55 filled for 35 lots at $147600 cents 6 events
+2023-03-15 22:04:18.454856 [INFO   ] [AUTO] Hedging -35 BUYYYY
+2023-03-15 22:04:18.454880 [INFO   ] [AUTO] Current Position is 25 to buy 8 to sell 13
+2023-03-15 22:04:18.661169 [INFO   ] [AUTO] Hedge Selling Order59 for price 147500 vol 16 diff is 100 event 8 position 25
+2023-03-15 22:04:19.430588 [INFO   ] [AUTO] Hedge Selling Order60 for price 147400 vol 16 diff is 100 event 4 position 25
+2023-03-15 22:04:20.193341 [INFO   ] [AUTO] Hedge Buying Order61 for price 147200 vol 32 diff is 200 event 3 position 25
+2023-03-15 22:04:21.147841 [INFO   ] [AUTO] Hedge Selling Order62 for price 147600 vol 16 diff is 100 event 4 position 25
+2023-03-15 22:04:21.253061 [INFO   ] [AUTO] order 62 filled for 16 lots at $147600 cents 4 events
+2023-03-15 22:04:21.253211 [INFO   ] [AUTO] Hedging -16 BUYYYY
+2023-03-15 22:04:21.253322 [INFO   ] [AUTO] Current Position is 9 to buy 32 to sell 0
+2023-03-15 22:04:21.439513 [INFO   ] [AUTO] Hedge Selling Order64 for price 147600 vol 32 diff is 200 event 4 position 9
+2023-03-15 22:04:21.650236 [INFO   ] [AUTO] Hedge Selling Order65 for price 147500 vol 16 diff is 100 event 5 position 9
+2023-03-15 22:04:22.107027 [INFO   ] [AUTO] Hedge Selling Order66 for price 147400 vol 16 diff is 100 event 6 position 9
+2023-03-15 22:04:23.875262 [INFO   ] [AUTO] Hedge Selling Order67 for price 147600 vol 32 diff is 200 event 4 position 9
+2023-03-15 22:04:24.114172 [INFO   ] [AUTO] Hedge Selling Order68 for price 147500 vol 16 diff is 100 event 4 position 9
+2023-03-15 22:04:24.901396 [INFO   ] [AUTO] order 68 filled for 16 lots at $147500 cents 3 events
+2023-03-15 22:04:24.901430 [INFO   ] [AUTO] Hedging -16 BUYYYY
+2023-03-15 22:04:24.901471 [INFO   ] [AUTO] Current Position is -7 to buy 32 to sell 32
+2023-03-15 22:04:24.901492 [INFO   ] [AUTO] order 67 filled for 9 lots at $147600 cents 3 events
+2023-03-15 22:04:24.901494 [INFO   ] [AUTO] Hedging -9 BUYYYY
+2023-03-15 22:04:24.901509 [INFO   ] [AUTO] Current Position is -16 to buy 32 to sell 23
+2023-03-15 22:04:25.172645 [INFO   ] [AUTO] Hedge Selling Order71 for price 147500 vol 48 diff is 300 event 3 position -16
+2023-03-15 22:04:25.877615 [INFO   ] [AUTO] Hedge Selling Order72 for price 147400 vol 13 diff is 100 event 5 position -16
+2023-03-15 22:04:26.431150 [INFO   ] [AUTO] Hedge Selling Order73 for price 147300 vol 16 diff is 100 event 3 position -16
+2023-03-15 22:04:26.431211 [INFO   ] [AUTO] Paying the fee
+2023-03-15 22:04:26.431879 [INFO   ] [AUTO] order 73 filled for 16 lots at $147300 cents 3 events
+2023-03-15 22:04:26.431903 [INFO   ] [AUTO] Hedging -16 BUYYYY
+2023-03-15 22:04:26.431934 [INFO   ] [AUTO] Current Position is -32 to buy 32 to sell 61
+2023-03-15 22:04:26.670085 [INFO   ] [AUTO] Hedge Selling Order75 for price 147300 vol 7 diff is 200 event 4 position -32
+2023-03-15 22:04:27.405817 [INFO   ] [AUTO] Hedge Selling Order76 for price 147200 vol 16 diff is 100 event 5 position -32
+2023-03-15 22:04:27.615068 [INFO   ] [AUTO] Hedge Selling Order77 for price 147100 vol 32 diff is 200 event 5 position -32
+2023-03-15 22:04:27.928387 [INFO   ] [AUTO] Hedge Selling Order78 for price 147000 vol 13 diff is 100 event 4 position -32
+2023-03-15 22:04:27.928451 [INFO   ] [AUTO] Paying the fee
+2023-03-15 22:04:27.929502 [INFO   ] [AUTO] order 78 filled for 9 lots at $147000 cents 4 events
+2023-03-15 22:04:27.929527 [INFO   ] [AUTO] Hedging -9 BUYYYY
+2023-03-15 22:04:27.929583 [INFO   ] [AUTO] Current Position is -41 to buy 32 to sell 59
+2023-03-15 22:04:28.423362 [INFO   ] [AUTO] Hedge Selling Order80 for price 147000 vol 4 diff is 300 event 7 position -41
+2023-03-15 22:04:28.629508 [INFO   ] [AUTO] Hedge Selling Order81 for price 146900 vol 7 diff is 100 event 6 position -41
+2023-03-15 22:04:28.629570 [INFO   ] [AUTO] Paying the fee
+2023-03-15 22:04:28.629896 [INFO   ] [AUTO] order 81 filled for 7 lots at $146900 cents 6 events
+2023-03-15 22:04:28.629918 [INFO   ] [AUTO] Hedging -7 BUYYYY
+2023-03-15 22:04:28.629949 [INFO   ] [AUTO] Current Position is -48 to buy 32 to sell 52
+2023-03-15 22:04:29.639178 [INFO   ] [AUTO] Hedge Selling Order83 for price 146900 vol 16 diff is 100 event 5 position -48
+2023-03-15 22:04:29.639280 [INFO   ] [AUTO] Paying the fee
+2023-03-15 22:04:29.641830 [INFO   ] [AUTO] order 83 filled for 16 lots at $146900 cents 5 events
+2023-03-15 22:04:29.641844 [INFO   ] [AUTO] Hedging -16 BUYYYY
+2023-03-15 22:04:29.641943 [INFO   ] [AUTO] Current Position is -64 to buy 32 to sell 4
+2023-03-15 22:04:29.859829 [INFO   ] [AUTO] Hedge Selling Order85 for price 146900 vol 32 diff is 200 event 5 position -64
+2023-03-15 22:04:29.859858 [INFO   ] [AUTO] Paying the fee
+2023-03-15 22:04:29.860293 [INFO   ] [AUTO] order 85 filled for 30 lots at $146900 cents 6 events
+2023-03-15 22:04:29.860310 [INFO   ] [AUTO] Hedging -30 BUYYYY
+2023-03-15 22:04:29.860429 [INFO   ] [AUTO] Current Position is -94 to buy 32 to sell 6
+2023-03-15 22:04:30.436448 [INFO   ] [AUTO] Hedge Selling Order87 for price 147100 vol 6 diff is 500 event 6 position -94
+2023-03-15 22:04:32.443724 [INFO   ] [AUTO] Hedge Selling Order88 for price 147100 vol 6 diff is 500 event 2 position -94
+2023-03-15 22:04:34.366108 [INFO   ] [AUTO] Hedge Selling Order89 for price 146800 vol 6 diff is 300 event 2 position -94
+2023-03-15 22:04:36.389042 [INFO   ] [AUTO] Hedge Selling Order90 for price 147100 vol 6 diff is 300 event 2 position -94
+2023-03-15 22:04:37.355831 [INFO   ] [AUTO] order 90 filled for 6 lots at $147100 cents 1 events
+2023-03-15 22:04:37.355892 [INFO   ] [AUTO] Hedging -6 BUYYYY
+2023-03-15 22:04:37.355934 [INFO   ] [AUTO] Current Position is -100 to buy 32 to sell 0
+2023-03-15 22:04:38.454837 [INFO   ] [AUTO] Hedge Buying Order92 for price 146600 vol 16 diff is 100 event 1 position -100
+2023-03-15 22:04:39.245403 [INFO   ] [AUTO] order 92 filled for 16 lots at $146600 cents 1 events
+2023-03-15 22:04:39.245443 [INFO   ] [AUTO] Hedging 16 SELLLL
+2023-03-15 22:04:39.245470 [INFO   ] [AUTO] Current Position is -84 to buy 0 to sell 0
+2023-03-15 22:04:39.370234 [INFO   ] [AUTO] Hedge Selling Order94 for price 147100 vol 16 diff is 200 event 3 position -84
+2023-03-15 22:04:39.645435 [INFO   ] [AUTO] Hedge Buying Order95 for price 146700 vol 16 diff is 100 event 3 position -84
+2023-03-15 22:04:40.004429 [INFO   ] [AUTO] order 94 filled for 16 lots at $147100 cents 3 events
+2023-03-15 22:04:40.004521 [INFO   ] [AUTO] Hedging -16 BUYYYY
+2023-03-15 22:04:40.004600 [INFO   ] [AUTO] Current Position is -100 to buy 16 to sell 0
+2023-03-15 22:04:40.396911 [INFO   ] [AUTO] Hedge Buying Order97 for price 146900 vol 16 diff is 100 event 4 position -100
+2023-03-15 22:04:41.547243 [INFO   ] [AUTO] order 97 filled for 16 lots at $146900 cents 2 events
+2023-03-15 22:04:41.547274 [INFO   ] [AUTO] Hedging 16 SELLLL
+2023-03-15 22:04:41.547310 [INFO   ] [AUTO] Current Position is -84 to buy 16 to sell 0
+2023-03-15 22:04:41.652261 [INFO   ] [AUTO] Hedge Buying Order99 for price 146900 vol 16 diff is 100 event 3 position -84
+2023-03-15 22:04:41.941236 [INFO   ] [AUTO] Hedge Buying Order100 for price 147000 vol 16 diff is 100 event 4 position -84
+2023-03-15 22:04:41.941271 [INFO   ] [AUTO] Hedge Selling Order101 for price 147400 vol 16 diff is 100 event 5 position -84
+2023-03-15 22:04:42.201925 [INFO   ] [AUTO] Hedge Buying Order102 for price 147100 vol 16 diff is 100 event 5 position -84
+2023-03-15 22:04:43.201720 [INFO   ] [AUTO] order 101 filled for 16 lots at $147400 cents 2 events
+2023-03-15 22:04:43.201749 [INFO   ] [AUTO] Hedging -16 BUYYYY
+2023-03-15 22:04:43.201769 [INFO   ] [AUTO] Current Position is -100 to buy 48 to sell 0
+2023-03-15 22:04:48.701235 [INFO   ] [AUTO] Hedge Buying Order104 for price 146800 vol 64 diff is 400 event 1 position -100
+2023-03-15 22:04:48.906238 [INFO   ] [AUTO] Hedge Buying Order105 for price 146900 vol 48 diff is 300 event 2 position -100
+2023-03-15 22:04:49.168897 [INFO   ] [AUTO] Hedge Buying Order106 for price 147000 vol 48 diff is 300 event 3 position -100
+2023-03-15 22:04:49.427777 [INFO   ] [AUTO] Hedge Buying Order107 for price 147100 vol 16 diff is 100 event 4 position -100
+2023-03-15 22:04:49.638846 [INFO   ] [AUTO] Hedge Buying Order108 for price 147200 vol 16 diff is 100 event 5 position -100
+2023-03-15 22:04:49.875239 [INFO   ] [AUTO] Hedge Buying Order109 for price 147300 vol 8 diff is 300 event 5 position -100
+2023-03-15 22:04:51.385985 [INFO   ] [AUTO] Hedge Buying Order110 for price 147900 vol 48 diff is 300 event 5 position -100
+2023-03-15 22:04:51.386017 [INFO   ] [AUTO] Paying the fee
+2023-03-15 22:04:51.386384 [INFO   ] [AUTO] order 110 filled for 48 lots at $147900 cents 6 events
+2023-03-15 22:04:51.386393 [INFO   ] [AUTO] Hedging 48 SELLLL
+2023-03-15 22:04:51.386403 [INFO   ] [AUTO] Current Position is -52 to buy 8 to sell 0
+2023-03-15 22:04:51.609846 [INFO   ] [AUTO] Hedge Buying Order112 for price 147800 vol 80 diff is 500 event 7 position -52
+2023-03-15 22:04:51.907514 [INFO   ] [AUTO] Hedge Buying Order113 for price 147900 vol 64 diff is 400 event 7 position -52
+2023-03-15 22:04:51.907547 [INFO   ] [AUTO] Paying the fee
+2023-03-15 22:04:51.907994 [INFO   ] [AUTO] order 113 filled for 64 lots at $147900 cents 7 events
+2023-03-15 22:04:51.908000 [INFO   ] [AUTO] Hedging 64 SELLLL
+2023-03-15 22:04:51.908011 [INFO   ] [AUTO] Current Position is 12 to buy 80 to sell 0
+2023-03-15 22:04:52.171218 [INFO   ] [AUTO] Hedge Buying Order115 for price 147900 vol 8 diff is 200 event 8 position 12
+2023-03-15 22:04:52.171248 [INFO   ] [AUTO] Paying the fee
+2023-03-15 22:04:52.171825 [INFO   ] [AUTO] order 115 filled for 8 lots at $147900 cents 8 events
+2023-03-15 22:04:52.171831 [INFO   ] [AUTO] Hedging 8 SELLLL
+2023-03-15 22:04:52.171843 [INFO   ] [AUTO] Current Position is 20 to buy 80 to sell 0
+2023-03-15 22:04:53.681402 [INFO   ] [AUTO] Hedge Buying Order117 for price 148200 vol 64 diff is 400 event 2 position 20
+2023-03-15 22:04:54.116871 [INFO   ] [AUTO] Hedge Buying Order118 for price 148300 vol 16 diff is 500 event 3 position 20
+2023-03-15 22:04:55.616450 [INFO   ] [AUTO] Hedge Buying Order119 for price 148500 vol 64 diff is 600 event 2 position 20
+2023-03-15 22:04:55.616474 [INFO   ] [AUTO] Paying the fee
+2023-03-15 22:04:55.617100 [INFO   ] [AUTO] order 119 filled for 16 lots at $148500 cents 3 events
+2023-03-15 22:04:55.617107 [INFO   ] [AUTO] Hedging 16 SELLLL
+2023-03-15 22:04:55.617117 [INFO   ] [AUTO] Current Position is 36 to buy 64 to sell 0
+2023-03-15 22:04:56.138079 [INFO   ] [AUTO] Hedge Buying Order121 for price 148700 vol 64 diff is 400 event 5 position 36
+2023-03-15 22:04:58.158438 [INFO   ] [AUTO] Hedge Buying Order122 for price 149200 vol 64 diff is 400 event 2 position 36
+2023-03-15 22:04:59.441316 [INFO   ] [AUTO] Hedge Selling Order123 for price 149500 vol 32 diff is 200 event 1 position 36
+2023-03-15 22:04:59.703394 [INFO   ] [AUTO] Hedge Selling Order124 for price 149400 vol 16 diff is 100 event 2 position 36
+2023-03-15 22:05:00.171538 [INFO   ] [AUTO] Hedge Buying Order125 for price 148800 vol 32 diff is 200 event 4 position 36
+2023-03-15 22:05:00.405991 [INFO   ] [AUTO] Hedge Buying Order126 for price 148900 vol 32 diff is 200 event 5 position 36
+2023-03-15 22:05:00.406018 [INFO   ] [AUTO] Hedge Selling Order127 for price 149300 vol 32 diff is 200 event 6 position 36
+2023-03-15 22:05:01.431526 [INFO   ] [AUTO] Hedge Selling Order128 for price 149200 vol 16 diff is 100 event 5 position 36
+2023-03-15 22:05:01.691831 [INFO   ] [AUTO] order 128 filled for 16 lots at $149200 cents 4 events
+2023-03-15 22:05:01.691858 [INFO   ] [AUTO] Hedging -16 BUYYYY
+2023-03-15 22:05:01.691886 [INFO   ] [AUTO] Current Position is 20 to buy 64 to sell 32
+2023-03-15 22:05:01.691960 [INFO   ] [AUTO] order 127 filled for 9 lots at $149300 cents 5 events
+2023-03-15 22:05:01.691965 [INFO   ] [AUTO] Hedging -9 BUYYYY
+2023-03-15 22:05:01.691978 [INFO   ] [AUTO] Current Position is 11 to buy 64 to sell 23
+2023-03-15 22:05:01.889415 [INFO   ] [AUTO] Hedge Selling Order131 for price 149200 vol 16 diff is 100 event 7 position 11
+2023-03-15 22:05:02.144264 [INFO   ] [AUTO] Hedge Buying Order132 for price 148600 vol 25 diff is 300 event 9 position 11
+2023-03-15 22:05:02.382951 [INFO   ] [AUTO] Hedge Buying Order133 for price 148700 vol 16 diff is 100 event 9 position 11
+2023-03-15 22:05:02.382976 [INFO   ] [AUTO] Hedge Selling Order134 for price 149100 vol 16 diff is 100 event 10 position 11
+2023-03-15 22:05:02.589930 [INFO   ] [AUTO] order 134 filled for 9 lots at $149100 cents 10 events
+2023-03-15 22:05:02.589957 [INFO   ] [AUTO] Hedging -9 BUYYYY
+2023-03-15 22:05:02.589985 [INFO   ] [AUTO] Current Position is 2 to buy 41 to sell 23
+2023-03-15 22:05:02.653796 [INFO   ] [AUTO] order 134 filled for 7 lots at $149100 cents 10 events
+2023-03-15 22:05:02.653817 [INFO   ] [AUTO] Hedging -7 BUYYYY
+2023-03-15 22:05:02.653833 [INFO   ] [AUTO] Current Position is -5 to buy 41 to sell 16
+2023-03-15 22:05:02.653920 [INFO   ] [AUTO] order 131 filled for 16 lots at $149200 cents 11 events
+2023-03-15 22:05:02.653929 [INFO   ] [AUTO] Hedging -16 BUYYYY
+2023-03-15 22:05:02.653940 [INFO   ] [AUTO] Current Position is -21 to buy 41 to sell 0
+2023-03-15 22:05:02.671655 [INFO   ] [AUTO] Hedge Selling Order138 for price 149300 vol 32 diff is 200 event 12 position -21
+2023-03-15 22:05:02.878161 [INFO   ] [AUTO] Hedge Buying Order139 for price 148800 vol 32 diff is 200 event 11 position -21
+2023-03-15 22:05:02.999071 [INFO   ] [AUTO] order 139 filled for 28 lots at $148800 cents 11 events
+2023-03-15 22:05:02.999099 [INFO   ] [AUTO] Hedging 28 SELLLL
+2023-03-15 22:05:02.999119 [INFO   ] [AUTO] Current Position is 7 to buy 45 to sell 32
+2023-03-15 22:05:03.125929 [INFO   ] [AUTO] Hedge Buying Order141 for price 148900 vol 16 diff is 100 event 10 position 7
+2023-03-15 22:05:03.449456 [INFO   ] [AUTO] Hedge Buying Order142 for price 149000 vol 16 diff is 100 event 8 position 7
+2023-03-15 22:05:04.367637 [INFO   ] [AUTO] Hedge Selling Order143 for price 149500 vol 32 diff is 200 event 5 position 7
+2023-03-15 22:05:04.640190 [INFO   ] [AUTO] Hedge Buying Order144 for price 149100 vol 16 diff is 100 event 6 position 7
+2023-03-15 22:05:04.858759 [INFO   ] [AUTO] Hedge Buying Order145 for price 149200 vol 16 diff is 100 event 7 position 7
+2023-03-15 22:05:05.421098 [INFO   ] [AUTO] Hedge Buying Order146 for price 149300 vol 32 diff is 200 event 5 position 7
+2023-03-15 22:05:05.894593 [INFO   ] [AUTO] Hedge Buying Order147 for price 149400 vol 16 diff is 100 event 4 position 7
+2023-03-15 22:05:06.152036 [INFO   ] [AUTO] Hedge Buying Order148 for price 149500 vol 13 diff is 100 event 4 position 7
+2023-03-15 22:05:07.705644 [INFO   ] [AUTO] Hedge Buying Order149 for price 149600 vol 16 diff is 100 event 3 position 7
+2023-03-15 22:05:07.705744 [INFO   ] [AUTO] Paying the fee
+2023-03-15 22:05:07.705938 [INFO   ] [AUTO] order 149 filled for 16 lots at $149600 cents 4 events
+2023-03-15 22:05:07.705956 [INFO   ] [AUTO] Hedging 16 SELLLL
+2023-03-15 22:05:07.706067 [INFO   ] [AUTO] Current Position is 23 to buy 13 to sell 32
+2023-03-15 22:05:07.881592 [INFO   ] [AUTO] Hedge Buying Order151 for price 149300 vol 48 diff is 300 event 6 position 23
+2023-03-15 22:05:08.128400 [INFO   ] [AUTO] Hedge Buying Order152 for price 149400 vol 29 diff is 200 event 6 position 23
+2023-03-15 22:05:08.199078 [INFO   ] [AUTO] order 152 filled for 29 lots at $149400 cents 6 events
+2023-03-15 22:05:08.199110 [INFO   ] [AUTO] Hedging 29 SELLLL
+2023-03-15 22:05:08.199153 [INFO   ] [AUTO] Current Position is 52 to buy 48 to sell 32
+2023-03-15 22:05:08.199182 [INFO   ] [AUTO] order 151 filled for 1 lots at $149300 cents 7 events
+2023-03-15 22:05:08.199198 [INFO   ] [AUTO] Hedging 1 SELLLL
+2023-03-15 22:05:08.199223 [INFO   ] [AUTO] Current Position is 53 to buy 47 to sell 32
+2023-03-15 22:05:09.349745 [INFO   ] [AUTO] order 151 filled for 47 lots at $149300 cents 3 events
+2023-03-15 22:05:09.349778 [INFO   ] [AUTO] Hedging 47 SELLLL
+2023-03-15 22:05:09.349873 [INFO   ] [AUTO] Current Position is 100 to buy 0 to sell 32
+2023-03-15 22:05:29.700910 [INFO   ] [AUTO] Hedge Selling Order156 for price 150500 vol 32 diff is 200 event 1 position 100
+2023-03-15 22:05:29.700973 [INFO   ] [AUTO] Paying the fee
+2023-03-15 22:05:29.701403 [INFO   ] [AUTO] order 156 filled for 17 lots at $150500 cents 1 events
+2023-03-15 22:05:29.701421 [INFO   ] [AUTO] Hedging -17 BUYYYY
+2023-03-15 22:05:29.701447 [INFO   ] [AUTO] Current Position is 83 to buy 0 to sell 15
+2023-03-15 22:05:29.889878 [INFO   ] [AUTO] Hedge Buying Order158 for price 149900 vol 17 diff is 400 event 3 position 83
+2023-03-15 22:05:31.887225 [INFO   ] [AUTO] Hedge Buying Order159 for price 150100 vol 17 diff is 500 event 2 position 83
+2023-03-15 22:05:32.044824 [INFO   ] [AUTO] order 159 filled for 17 lots at $150100 cents 2 events
+2023-03-15 22:05:32.044891 [INFO   ] [AUTO] Hedging 17 SELLLL
+2023-03-15 22:05:32.044935 [INFO   ] [AUTO] Current Position is 100 to buy 0 to sell 15
+2023-03-15 22:05:38.671963 [INFO   ] [AUTO] Hedge Selling Order161 for price 150500 vol 16 diff is 100 event 1 position 100
+2023-03-15 22:05:40.439045 [INFO   ] [AUTO] Hedge Selling Order162 for price 150900 vol 64 diff is 400 event 2 position 100
+2023-03-15 22:05:40.634217 [INFO   ] [AUTO] Hedge Selling Order163 for price 150800 vol 48 diff is 300 event 3 position 100
+2023-03-15 22:05:40.871143 [INFO   ] [AUTO] Hedge Selling Order164 for price 150700 vol 16 diff is 100 event 4 position 100
+2023-03-15 22:05:41.362848 [INFO   ] [AUTO] Hedge Selling Order165 for price 150600 vol 16 diff is 100 event 4 position 100
+2023-03-15 22:05:41.669901 [INFO   ] [AUTO] Hedge Selling Order166 for price 150500 vol 16 diff is 100 event 4 position 100
+2023-03-15 22:05:42.751531 [INFO   ] [AUTO] order 166 filled for 16 lots at $150500 cents 4 events
+2023-03-15 22:05:42.751564 [INFO   ] [AUTO] Hedging -16 BUYYYY
+2023-03-15 22:05:42.751588 [INFO   ] [AUTO] Current Position is 84 to buy 0 to sell 16
+2023-03-15 22:05:42.751599 [INFO   ] [AUTO] order 165 filled for 16 lots at $150600 cents 4 events
+2023-03-15 22:05:42.751604 [INFO   ] [AUTO] Hedging -16 BUYYYY
+2023-03-15 22:05:42.751617 [INFO   ] [AUTO] Current Position is 68 to buy 0 to sell 0
+2023-03-15 22:05:42.880237 [INFO   ] [AUTO] Hedge Selling Order169 for price 150500 vol 48 diff is 300 event 6 position 68
+2023-03-15 22:05:43.191850 [INFO   ] [AUTO] Hedge Selling Order170 for price 150300 vol 64 diff is 400 event 5 position 68
+2023-03-15 22:05:43.436713 [INFO   ] [AUTO] Hedge Selling Order171 for price 150200 vol 56 diff is 500 event 5 position 68
+2023-03-15 22:05:43.953193 [INFO   ] [AUTO] order 171 filled for 56 lots at $150200 cents 3 events
+2023-03-15 22:05:43.953324 [INFO   ] [AUTO] Hedging -56 BUYYYY
+2023-03-15 22:05:43.953341 [INFO   ] [AUTO] Current Position is 12 to buy 0 to sell 112
+2023-03-15 22:05:44.927891 [INFO   ] [AUTO] Hedge Selling Order173 for price 150000 vol 48 diff is 300 event 4 position 12
+2023-03-15 22:05:45.211217 [INFO   ] [AUTO] Hedge Selling Order174 for price 149900 vol 32 diff is 200 event 4 position 12
+2023-03-15 22:05:46.181302 [INFO   ] [AUTO] Hedge Buying Order175 for price 149400 vol 48 diff is 300 event 2 position 12
+2023-03-15 22:05:46.181557 [INFO   ] [AUTO] order 174 filled for 2 lots at $149900 cents 2 events
+2023-03-15 22:05:46.181563 [INFO   ] [AUTO] Hedging -2 BUYYYY
+2023-03-15 22:05:46.181577 [INFO   ] [AUTO] Current Position is 10 to buy 48 to sell 78
+2023-03-15 22:05:46.349693 [INFO   ] [AUTO] order 175 filled for 22 lots at $149400 cents 3 events
+2023-03-15 22:05:46.349834 [INFO   ] [AUTO] Hedging 22 SELLLL
+2023-03-15 22:05:46.349885 [INFO   ] [AUTO] Current Position is 32 to buy 26 to sell 78
+2023-03-15 22:05:46.364411 [INFO   ] [AUTO] Hedge Buying Order178 for price 149500 vol 42 diff is 300 event 4 position 32
+2023-03-15 22:05:47.186711 [INFO   ] [AUTO] Hedge Selling Order179 for price 150100 vol 16 diff is 100 event 7 position 32
+2023-03-15 22:05:47.954864 [INFO   ] [AUTO] Hedge Selling Order180 for price 150000 vol 64 diff is 400 event 3 position 32
+2023-03-15 22:05:48.197414 [INFO   ] [AUTO] Hedge Selling Order181 for price 149900 vol 52 diff is 400 event 5 position 32
+2023-03-15 22:05:49.389772 [INFO   ] [AUTO] Hedge Selling Order182 for price 149500 vol 16 diff is 100 event 2 position 32
+2023-03-15 22:05:51.152113 [INFO   ] [AUTO] Hedge Buying Order183 for price 149400 vol 16 diff is 100 event 2 position 32
+2023-03-15 22:05:51.411154 [INFO   ] [AUTO] Hedge Selling Order184 for price 150100 vol 48 diff is 300 event 3 position 32
+2023-03-15 22:05:51.650452 [INFO   ] [AUTO] Hedge Selling Order185 for price 150000 vol 32 diff is 200 event 4 position 32
+2023-03-15 22:05:51.893373 [INFO   ] [AUTO] Hedge Selling Order186 for price 149900 vol 48 diff is 300 event 5 position 32
+2023-03-15 22:05:51.893644 [INFO   ] [AUTO] Paying the fee
+2023-03-15 22:05:51.893661 [INFO   ] [AUTO] order 186 filled for 7 lots at $149900 cents 5 events
+2023-03-15 22:05:51.893664 [INFO   ] [AUTO] Hedging -7 BUYYYY
+2023-03-15 22:05:51.893800 [INFO   ] [AUTO] Current Position is 25 to buy 16 to sell 121
+2023-03-15 22:05:52.135872 [INFO   ] [AUTO] Hedge Selling Order188 for price 149900 vol 4 diff is 300 event 6 position 25
+2023-03-15 22:05:52.431932 [INFO   ] [AUTO] Hedge Selling Order189 for price 149800 vol 16 diff is 100 event 6 position 25
+2023-03-15 22:05:52.432128 [INFO   ] [AUTO] order 188 filled for 4 lots at $149900 cents 6 events
+2023-03-15 22:05:52.432134 [INFO   ] [AUTO] Hedging -4 BUYYYY
+2023-03-15 22:05:52.432158 [INFO   ] [AUTO] Current Position is 21 to buy 16 to sell 96
+2023-03-15 22:05:52.432645 [INFO   ] [AUTO] order 185 filled for 23 lots at $150000 cents 7 events
+2023-03-15 22:05:52.432651 [INFO   ] [AUTO] Hedging -23 BUYYYY
+2023-03-15 22:05:52.432669 [INFO   ] [AUTO] Current Position is -2 to buy 16 to sell 73
+2023-03-15 22:05:53.593849 [INFO   ] [AUTO] order 189 filled for 16 lots at $149800 cents 6 events
+2023-03-15 22:05:53.593877 [INFO   ] [AUTO] Hedging -16 BUYYYY
+2023-03-15 22:05:53.593905 [INFO   ] [AUTO] Current Position is -18 to buy 16 to sell 57
+2023-03-15 22:05:53.629389 [INFO   ] [AUTO] Hedge Selling Order193 for price 150100 vol 25 diff is 300 event 5 position -18
+2023-03-15 22:05:53.890241 [INFO   ] [AUTO] Hedge Selling Order194 for price 150000 vol 48 diff is 300 event 5 position -18
+2023-03-15 22:05:54.192305 [INFO   ] [AUTO] Hedge Selling Order195 for price 149900 vol 9 diff is 200 event 5 position -18
+2023-03-15 22:05:54.450765 [INFO   ] [AUTO] Hedge Buying Order196 for price 149600 vol 16 diff is 100 event 5 position -18
+2023-03-15 22:05:54.506575 [INFO   ] [AUTO] order 195 filled for 9 lots at $149900 cents 5 events
+2023-03-15 22:05:54.506608 [INFO   ] [AUTO] Hedging -9 BUYYYY
+2023-03-15 22:05:54.506640 [INFO   ] [AUTO] Current Position is -27 to buy 16 to sell 73
+2023-03-15 22:05:54.506658 [INFO   ] [AUTO] order 194 filled for 40 lots at $150000 cents 6 events
+2023-03-15 22:05:54.506661 [INFO   ] [AUTO] Hedging -40 BUYYYY
+2023-03-15 22:05:54.506671 [INFO   ] [AUTO] Current Position is -67 to buy 16 to sell 33
+2023-03-15 22:05:54.701529 [INFO   ] [AUTO] order 196 filled for 16 lots at $149600 cents 7 events
+2023-03-15 22:05:54.701561 [INFO   ] [AUTO] Hedging 16 SELLLL
+2023-03-15 22:05:54.701596 [INFO   ] [AUTO] Current Position is -51 to buy 0 to sell 33
+2023-03-15 22:05:54.930534 [INFO   ] [AUTO] Hedge Buying Order200 for price 149400 vol 16 diff is 100 event 7 position -51
+2023-03-15 22:05:54.930567 [INFO   ] [AUTO] Hedge Selling Order201 for price 149900 vol 16 diff is 100 event 8 position -51
+2023-03-15 22:05:55.202364 [INFO   ] [AUTO] Hedge Buying Order202 for price 149500 vol 16 diff is 100 event 8 position -51
+2023-03-15 22:05:55.237686 [INFO   ] [AUTO] order 202 filled for 16 lots at $149500 cents 9 events
+2023-03-15 22:05:55.237749 [INFO   ] [AUTO] Hedging 16 SELLLL
+2023-03-15 22:05:55.237782 [INFO   ] [AUTO] Current Position is -35 to buy 16 to sell 49
+2023-03-15 22:05:55.237798 [INFO   ] [AUTO] order 200 filled for 16 lots at $149400 cents 10 events
+2023-03-15 22:05:55.237803 [INFO   ] [AUTO] Hedging 16 SELLLL
+2023-03-15 22:05:55.237815 [INFO   ] [AUTO] Current Position is -19 to buy 0 to sell 49
+2023-03-15 22:05:55.398352 [INFO   ] [AUTO] Hedge Buying Order205 for price 149400 vol 16 diff is 100 event 11 position -19
+2023-03-15 22:05:55.398415 [INFO   ] [AUTO] Hedge Selling Order206 for price 149800 vol 16 diff is 100 event 12 position -19
+2023-03-15 22:05:56.418677 [INFO   ] [AUTO] Hedge Selling Order207 for price 149700 vol 16 diff is 100 event 4 position -19
+2023-03-15 22:05:57.150213 [INFO   ] [AUTO] Hedge Selling Order208 for price 149600 vol 16 diff is 100 event 5 position -19
+2023-03-15 22:05:57.622262 [INFO   ] [AUTO] Hedge Buying Order209 for price 149400 vol 32 diff is 200 event 4 position -19
+2023-03-15 22:05:58.444067 [INFO   ] [AUTO] Hedge Buying Order210 for price 149500 vol 16 diff is 100 event 3 position -19
+2023-03-15 22:05:58.611767 [INFO   ] [AUTO] Hedge Buying Order211 for price 149600 vol 16 diff is 100 event 5 position -19
+2023-03-15 22:05:58.611797 [INFO   ] [AUTO] Paying the fee
+2023-03-15 22:05:58.878660 [INFO   ] [AUTO] Hedge Selling Order212 for price 150100 vol 32 diff is 200 event 5 position -19
+2023-03-15 22:05:59.109846 [INFO   ] [AUTO] Hedge Buying Order213 for price 149600 vol 16 diff is 100 event 5 position -19
+2023-03-15 22:05:59.109978 [INFO   ] [AUTO] Hedge Selling Order214 for price 150000 vol 16 diff is 100 event 6 position -19
+2023-03-15 22:05:59.620959 [INFO   ] [AUTO] Hedge Buying Order215 for price 149700 vol 16 diff is 100 event 7 position -19
+2023-03-15 22:06:00.404399 [INFO   ] [AUTO] order 214 filled for 16 lots at $150000 cents 3 events
+2023-03-15 22:06:00.404434 [INFO   ] [AUTO] Hedging -16 BUYYYY
+2023-03-15 22:06:00.404466 [INFO   ] [AUTO] Current Position is -35 to buy 48 to sell 32
+2023-03-15 22:06:00.663060 [INFO   ] [AUTO] Hedge Selling Order217 for price 150400 vol 33 diff is 300 event 5 position -35
+2023-03-15 22:06:00.926816 [INFO   ] [AUTO] Hedge Selling Order218 for price 150300 vol 32 diff is 400 event 5 position -35
+2023-03-15 22:06:02.697380 [INFO   ] [AUTO] Hedge Selling Order219 for price 150200 vol 33 diff is 400 event 3 position -35
+2023-03-15 22:06:02.907725 [INFO   ] [AUTO] Hedge Selling Order220 for price 150100 vol 32 diff is 300 event 4 position -35
+2023-03-15 22:06:03.749726 [INFO   ] [AUTO] order 220 filled for 32 lots at $150100 cents 2 events
+2023-03-15 22:06:03.749760 [INFO   ] [AUTO] Hedging -32 BUYYYY
+2023-03-15 22:06:03.749789 [INFO   ] [AUTO] Current Position is -67 to buy 48 to sell 33
+2023-03-15 22:06:03.749878 [INFO   ] [AUTO] order 219 filled for 33 lots at $150200 cents 2 events
+2023-03-15 22:06:03.749884 [INFO   ] [AUTO] Hedging -33 BUYYYY
+2023-03-15 22:06:03.749898 [INFO   ] [AUTO] Current Position is -100 to buy 48 to sell 0
+2023-03-15 22:06:05.616383 [INFO   ] [AUTO] Hedge Buying Order223 for price 150100 vol 32 diff is 200 event 1 position -100
+2023-03-15 22:06:05.952069 [INFO   ] [AUTO] Hedge Buying Order224 for price 150200 vol 16 diff is 100 event 2 position -100
+2023-03-15 22:06:07.628062 [INFO   ] [AUTO] Hedge Buying Order225 for price 150100 vol 32 diff is 200 event 3 position -100
+2023-03-15 22:06:07.865374 [INFO   ] [AUTO] Hedge Buying Order226 for price 150200 vol 16 diff is 100 event 4 position -100
+2023-03-15 22:06:13.177302 [INFO   ] [AUTO] Hedge Buying Order227 for price 150600 vol 16 diff is 100 event 1 position -100
+2023-03-15 22:06:14.940957 [INFO   ] [AUTO] Hedge Buying Order228 for price 150600 vol 32 diff is 200 event 2 position -100
+2023-03-15 22:06:15.169602 [INFO   ] [AUTO] Hedge Buying Order229 for price 150700 vol 16 diff is 100 event 3 position -100
+2023-03-15 22:06:15.169652 [INFO   ] [AUTO] Paying the fee
+2023-03-15 22:06:15.169954 [INFO   ] [AUTO] order 229 filled for 16 lots at $150700 cents 3 events
+2023-03-15 22:06:15.169972 [INFO   ] [AUTO] Hedging 16 SELLLL
+2023-03-15 22:06:15.169997 [INFO   ] [AUTO] Current Position is -84 to buy 32 to sell 0
+2023-03-15 22:06:15.444417 [INFO   ] [AUTO] Hedge Buying Order231 for price 150700 vol 32 diff is 200 event 5 position -84
+2023-03-15 22:06:16.389271 [INFO   ] [AUTO] Hedge Selling Order232 for price 151200 vol 16 diff is 200 event 2 position -84
+2023-03-15 22:06:16.901586 [INFO   ] [AUTO] Hedge Buying Order233 for price 150800 vol 48 diff is 300 event 3 position -84
+2023-03-15 22:06:17.145486 [INFO   ] [AUTO] order 232 filled for 5 lots at $151200 cents 4 events
+2023-03-15 22:06:17.145514 [INFO   ] [AUTO] Hedging -5 BUYYYY
+2023-03-15 22:06:17.145540 [INFO   ] [AUTO] Current Position is -89 to buy 80 to sell 11
+2023-03-15 22:06:17.449189 [INFO   ] [AUTO] Hedge Buying Order235 for price 150900 vol 16 diff is 100 event 4 position -89
+2023-03-15 22:06:18.203475 [INFO   ] [AUTO] Hedge Buying Order236 for price 151000 vol 16 diff is 100 event 3 position -89
+2023-03-15 22:06:18.380340 [INFO   ] [AUTO] Hedge Buying Order237 for price 151100 vol 16 diff is 100 event 4 position -89
+2023-03-15 22:06:19.164664 [INFO   ] [AUTO] Hedge Selling Order238 for price 151300 vol 11 diff is 100 event 5 position -89
+2023-03-15 22:06:19.742813 [INFO   ] [AUTO] order 237 filled for 16 lots at $151100 cents 3 events
+2023-03-15 22:06:19.742843 [INFO   ] [AUTO] Hedging 16 SELLLL
+2023-03-15 22:06:19.743000 [INFO   ] [AUTO] Current Position is -73 to buy 80 to sell 11
+2023-03-15 22:06:19.888651 [INFO   ] [AUTO] Hedge Selling Order240 for price 151000 vol 16 diff is 400 event 5 position -73
+2023-03-15 22:06:19.995146 [INFO   ] [AUTO] order 240 filled for 16 lots at $151000 cents 5 events
+2023-03-15 22:06:19.995178 [INFO   ] [AUTO] Hedging -16 BUYYYY
+2023-03-15 22:06:19.995442 [INFO   ] [AUTO] Current Position is -89 to buy 80 to sell 11
+2023-03-15 22:06:20.648485 [INFO   ] [AUTO] Hedge Buying Order242 for price 150600 vol 16 diff is 100 event 5 position -89
+2023-03-15 22:06:21.165983 [INFO   ] [AUTO] Hedge Selling Order243 for price 150900 vol 11 diff is 200 event 3 position -89
+2023-03-15 22:06:23.171215 [INFO   ] [AUTO] Hedge Selling Order244 for price 150700 vol 11 diff is 200 event 3 position -89
+2023-03-15 22:06:23.537195 [INFO   ] [AUTO] order 244 filled for 11 lots at $150700 cents 2 events
+2023-03-15 22:06:23.537227 [INFO   ] [AUTO] Hedging -11 BUYYYY
+2023-03-15 22:06:23.537252 [INFO   ] [AUTO] Current Position is -100 to buy 16 to sell 0
+2023-03-15 22:06:25.674768 [INFO   ] [AUTO] Hedge Buying Order246 for price 150500 vol 16 diff is 100 event 1 position -100
+2023-03-15 22:06:27.376446 [INFO   ] [AUTO] Hedge Buying Order247 for price 150500 vol 16 diff is 100 event 2 position -100
+2023-03-15 22:06:35.632368 [INFO   ] [AUTO] Hedge Buying Order248 for price 149700 vol 32 diff is 200 event 1 position -100
+2023-03-15 22:06:35.632393 [INFO   ] [AUTO] Paying the fee
+2023-03-15 22:06:35.636030 [INFO   ] [AUTO] order 248 filled for 32 lots at $149700 cents 1 events
+2023-03-15 22:06:35.636042 [INFO   ] [AUTO] Hedging 32 SELLLL
+2023-03-15 22:06:35.636055 [INFO   ] [AUTO] Current Position is -68 to buy 0 to sell 0
+2023-03-15 22:06:35.921535 [INFO   ] [AUTO] Hedge Buying Order250 for price 149700 vol 16 diff is 100 event 3 position -68
+2023-03-15 22:06:35.921567 [INFO   ] [AUTO] Paying the fee
+2023-03-15 22:06:35.921581 [INFO   ] [AUTO] order 250 filled for 16 lots at $149700 cents 3 events
+2023-03-15 22:06:35.921585 [INFO   ] [AUTO] Hedging 16 SELLLL
+2023-03-15 22:06:35.921688 [INFO   ] [AUTO] Current Position is -52 to buy 0 to sell 0
+2023-03-15 22:06:36.160616 [INFO   ] [AUTO] Hedge Buying Order252 for price 149700 vol 16 diff is 100 event 5 position -52
+2023-03-15 22:06:36.160907 [INFO   ] [AUTO] Paying the fee
+2023-03-15 22:06:36.160923 [INFO   ] [AUTO] order 252 filled for 16 lots at $149700 cents 5 events
+2023-03-15 22:06:36.160928 [INFO   ] [AUTO] Hedging 16 SELLLL
+2023-03-15 22:06:36.161097 [INFO   ] [AUTO] Current Position is -36 to buy 0 to sell 0
+2023-03-15 22:06:36.418678 [INFO   ] [AUTO] Hedge Buying Order254 for price 149700 vol 16 diff is 100 event 7 position -36
+2023-03-15 22:06:36.418708 [INFO   ] [AUTO] Paying the fee
+2023-03-15 22:06:36.419422 [INFO   ] [AUTO] order 254 filled for 16 lots at $149700 cents 7 events
+2023-03-15 22:06:36.419428 [INFO   ] [AUTO] Hedging 16 SELLLL
+2023-03-15 22:06:36.419442 [INFO   ] [AUTO] Current Position is -20 to buy 0 to sell 0
+2023-03-15 22:06:36.875075 [INFO   ] [AUTO] Hedge Buying Order256 for price 149700 vol 16 diff is 100 event 7 position -20
+2023-03-15 22:06:36.875105 [INFO   ] [AUTO] Paying the fee
+2023-03-15 22:06:36.875504 [INFO   ] [AUTO] order 256 filled for 16 lots at $149700 cents 7 events
+2023-03-15 22:06:36.875511 [INFO   ] [AUTO] Hedging 16 SELLLL
+2023-03-15 22:06:36.875523 [INFO   ] [AUTO] Current Position is -4 to buy 0 to sell 0
+2023-03-15 22:06:37.610286 [INFO   ] [AUTO] Hedge Buying Order258 for price 149700 vol 16 diff is 100 event 3 position -4
+2023-03-15 22:06:37.610318 [INFO   ] [AUTO] Paying the fee
+2023-03-15 22:06:37.610628 [INFO   ] [AUTO] order 258 filled for 16 lots at $149700 cents 3 events
+2023-03-15 22:06:37.610638 [INFO   ] [AUTO] Hedging 16 SELLLL
+2023-03-15 22:06:37.610652 [INFO   ] [AUTO] Current Position is 12 to buy 0 to sell 0
+2023-03-15 22:06:37.860966 [INFO   ] [AUTO] Hedge Buying Order260 for price 149700 vol 16 diff is 100 event 5 position 12
+2023-03-15 22:06:37.860990 [INFO   ] [AUTO] Paying the fee
+2023-03-15 22:06:37.861603 [INFO   ] [AUTO] order 260 filled for 16 lots at $149700 cents 5 events
+2023-03-15 22:06:37.861610 [INFO   ] [AUTO] Hedging 16 SELLLL
+2023-03-15 22:06:37.861623 [INFO   ] [AUTO] Current Position is 28 to buy 0 to sell 0
+2023-03-15 22:06:38.160670 [INFO   ] [AUTO] Hedge Buying Order262 for price 149700 vol 16 diff is 100 event 5 position 28
+2023-03-15 22:06:38.160701 [INFO   ] [AUTO] Paying the fee
+2023-03-15 22:06:38.161166 [INFO   ] [AUTO] order 262 filled for 9 lots at $149700 cents 5 events
+2023-03-15 22:06:38.161173 [INFO   ] [AUTO] Hedging 9 SELLLL
+2023-03-15 22:06:38.161185 [INFO   ] [AUTO] Current Position is 37 to buy 7 to sell 0
+2023-03-15 22:06:38.368208 [INFO   ] [AUTO] Hedge Selling Order264 for price 150200 vol 32 diff is 200 event 7 position 37
+2023-03-15 22:06:38.647801 [INFO   ] [AUTO] Hedge Buying Order265 for price 149700 vol 48 diff is 300 event 8 position 37
+2023-03-15 22:06:38.920965 [INFO   ] [AUTO] Hedge Buying Order266 for price 149800 vol 15 diff is 200 event 5 position 37
+2023-03-15 22:06:39.097821 [INFO   ] [AUTO] order 266 filled for 15 lots at $149800 cents 5 events
+2023-03-15 22:06:39.097853 [INFO   ] [AUTO] Hedging 15 SELLLL
+2023-03-15 22:06:39.097890 [INFO   ] [AUTO] Current Position is 52 to buy 48 to sell 32
+2023-03-15 22:06:39.097904 [INFO   ] [AUTO] order 265 filled for 35 lots at $149700 cents 6 events
+2023-03-15 22:06:39.097909 [INFO   ] [AUTO] Hedging 35 SELLLL
+2023-03-15 22:06:39.097920 [INFO   ] [AUTO] Current Position is 87 to buy 13 to sell 32
+2023-03-15 22:06:39.097930 [INFO   ] [AUTO] order 264 filled for 32 lots at $150200 cents 7 events
+2023-03-15 22:06:39.097935 [INFO   ] [AUTO] Hedging -32 BUYYYY
+2023-03-15 22:06:39.097947 [INFO   ] [AUTO] Current Position is 55 to buy 13 to sell 0
+2023-03-15 22:06:39.398111 [INFO   ] [AUTO] Hedge Selling Order270 for price 150400 vol 16 diff is 100 event 7 position 55
+2023-03-15 22:06:40.200825 [INFO   ] [AUTO] Hedge Buying Order271 for price 150300 vol 16 diff is 100 event 2 position 55
+2023-03-15 22:06:40.200860 [INFO   ] [AUTO] Paying the fee
+2023-03-15 22:06:40.201071 [INFO   ] [AUTO] order 271 filled for 16 lots at $150300 cents 3 events
+2023-03-15 22:06:40.201080 [INFO   ] [AUTO] Hedging 16 SELLLL
+2023-03-15 22:06:40.201092 [INFO   ] [AUTO] Current Position is 71 to buy 13 to sell 16
+2023-03-15 22:06:40.399687 [INFO   ] [AUTO] Hedge Buying Order273 for price 149900 vol 16 diff is 400 event 5 position 71
+2023-03-15 22:06:40.613972 [INFO   ] [AUTO] Hedge Buying Order274 for price 150000 vol 13 diff is 400 event 5 position 71
+2023-03-15 22:06:40.614007 [INFO   ] [AUTO] Paying the fee
+2023-03-15 22:06:40.614248 [INFO   ] [AUTO] order 274 filled for 13 lots at $150000 cents 5 events
+2023-03-15 22:06:40.614257 [INFO   ] [AUTO] Hedging 13 SELLLL
+2023-03-15 22:06:40.614269 [INFO   ] [AUTO] Current Position is 84 to buy 16 to sell 16
+2023-03-15 22:06:41.882888 [INFO   ] [AUTO] order 273 filled for 11 lots at $149900 cents 2 events
+2023-03-15 22:06:41.882927 [INFO   ] [AUTO] Hedging 11 SELLLL
+2023-03-15 22:06:41.882940 [INFO   ] [AUTO] Current Position is 95 to buy 5 to sell 16
+2023-03-15 22:06:42.417382 [INFO   ] [AUTO] Hedge Buying Order277 for price 150300 vol 5 diff is 400 event 3 position 95
+2023-03-15 22:06:42.417419 [INFO   ] [AUTO] Paying the fee
+2023-03-15 22:06:42.418840 [INFO   ] [AUTO] order 277 filled for 5 lots at $150300 cents 3 events
+2023-03-15 22:06:42.418851 [INFO   ] [AUTO] Hedging 5 SELLLL
+2023-03-15 22:06:42.418865 [INFO   ] [AUTO] Current Position is 100 to buy 0 to sell 16
+2023-03-15 22:06:47.952355 [INFO   ] [AUTO] Hedge Selling Order279 for price 150200 vol 32 diff is 200 event 1 position 100
+2023-03-15 22:06:48.624093 [INFO   ] [AUTO] Hedge Selling Order280 for price 150100 vol 32 diff is 200 event 2 position 100
+2023-03-15 22:06:48.865321 [INFO   ] [AUTO] Hedge Selling Order281 for price 150000 vol 48 diff is 300 event 3 position 100
+2023-03-15 22:06:49.142931 [INFO   ] [AUTO] Hedge Selling Order282 for price 149900 vol 32 diff is 200 event 3 position 100
+2023-03-15 22:06:49.393554 [INFO   ] [AUTO] Hedge Selling Order283 for price 149800 vol 32 diff is 200 event 4 position 100
+2023-03-15 22:06:49.630746 [INFO   ] [AUTO] Hedge Selling Order284 for price 149700 vol 16 diff is 100 event 6 position 100
+2023-03-15 22:06:52.161824 [INFO   ] [AUTO] Hedge Selling Order285 for price 150300 vol 40 diff is 500 event 2 position 100
+2023-03-15 22:06:52.403060 [INFO   ] [AUTO] Hedge Selling Order286 for price 150200 vol 32 diff is 200 event 2 position 100
+2023-03-15 22:06:55.935267 [INFO   ] [AUTO] Hedge Selling Order287 for price 150000 vol 16 diff is 100 event 1 position 100
+2023-03-15 22:06:56.254148 [INFO   ] [AUTO] order 287 filled for 16 lots at $150000 cents 1 events
+2023-03-15 22:06:56.254186 [INFO   ] [AUTO] Hedging -16 BUYYYY
+2023-03-15 22:06:56.254204 [INFO   ] [AUTO] Current Position is 84 to buy 0 to sell 0
+2023-03-15 22:06:56.361342 [INFO   ] [AUTO] Hedge Selling Order289 for price 150100 vol 48 diff is 300 event 3 position 84
+2023-03-15 22:06:56.638752 [INFO   ] [AUTO] Hedge Selling Order290 for price 150000 vol 32 diff is 200 event 4 position 84
+2023-03-15 22:06:56.903028 [INFO   ] [AUTO] order 290 filled for 32 lots at $150000 cents 4 events
+2023-03-15 22:06:56.903059 [INFO   ] [AUTO] Hedging -32 BUYYYY
+2023-03-15 22:06:56.903197 [INFO   ] [AUTO] Current Position is 52 to buy 0 to sell 48
+2023-03-15 22:06:56.903268 [INFO   ] [AUTO] order 289 filled for 3 lots at $150100 cents 5 events
+2023-03-15 22:06:56.903274 [INFO   ] [AUTO] Hedging -3 BUYYYY
+2023-03-15 22:06:56.903354 [INFO   ] [AUTO] Current Position is 49 to buy 0 to sell 45
+2023-03-15 22:06:56.934739 [INFO   ] [AUTO] Hedge Buying Order293 for price 149600 vol 16 diff is 100 event 7 position 49
+2023-03-15 22:06:56.934757 [INFO   ] [AUTO] Hedge Selling Order294 for price 150000 vol 16 diff is 100 event 8 position 49
+2023-03-15 22:06:59.681303 [INFO   ] [AUTO] Hedge Buying Order295 for price 149600 vol 16 diff is 100 event 1 position 49
+2023-03-15 22:07:00.631643 [INFO   ] [AUTO] Hedge Selling Order296 for price 150200 vol 32 diff is 200 event 2 position 49
+2023-03-15 22:07:00.926522 [INFO   ] [AUTO] Hedge Selling Order297 for price 150100 vol 32 diff is 200 event 2 position 49
+2023-03-15 22:07:01.183453 [INFO   ] [AUTO] Hedge Selling Order298 for price 150000 vol 16 diff is 100 event 3 position 49
+2023-03-15 22:07:01.447668 [INFO   ] [AUTO] Hedge Buying Order299 for price 149600 vol 16 diff is 100 event 5 position 49
+2023-03-15 22:07:01.744928 [INFO   ] [AUTO] order 298 filled for 16 lots at $150000 cents 5 events
+2023-03-15 22:07:01.744962 [INFO   ] [AUTO] Hedging -16 BUYYYY
+2023-03-15 22:07:01.744993 [INFO   ] [AUTO] Current Position is 33 to buy 16 to sell 64
+2023-03-15 22:07:01.745042 [INFO   ] [AUTO] order 297 filled for 32 lots at $150100 cents 5 events
+2023-03-15 22:07:01.745051 [INFO   ] [AUTO] Hedging -32 BUYYYY
+2023-03-15 22:07:01.745066 [INFO   ] [AUTO] Current Position is 1 to buy 16 to sell 32
+2023-03-15 22:07:01.745099 [INFO   ] [AUTO] order 296 filled for 7 lots at $150200 cents 6 events
+2023-03-15 22:07:01.745104 [INFO   ] [AUTO] Hedging -7 BUYYYY
+2023-03-15 22:07:01.745114 [INFO   ] [AUTO] Current Position is -6 to buy 16 to sell 25
+2023-03-15 22:07:01.852555 [INFO   ] [AUTO] order 296 filled for 25 lots at $150200 cents 7 events
+2023-03-15 22:07:01.852576 [INFO   ] [AUTO] Hedging -25 BUYYYY
+2023-03-15 22:07:01.852596 [INFO   ] [AUTO] Current Position is -31 to buy 16 to sell 0
+2023-03-15 22:07:01.892204 [INFO   ] [AUTO] Hedge Selling Order304 for price 150200 vol 48 diff is 300 event 9 position -31
+2023-03-15 22:07:01.892745 [INFO   ] [AUTO] order 304 filled for 9 lots at $150200 cents 9 events
+2023-03-15 22:07:01.892754 [INFO   ] [AUTO] Hedging -9 BUYYYY
+2023-03-15 22:07:01.892766 [INFO   ] [AUTO] Current Position is -40 to buy 16 to sell 39
+2023-03-15 22:07:02.143312 [INFO   ] [AUTO] Hedge Selling Order306 for price 150100 vol 21 diff is 200 event 10 position -40
+2023-03-15 22:07:02.804285 [INFO   ] [AUTO] order 299 filled for 16 lots at $149600 cents 7 events
+2023-03-15 22:07:02.804316 [INFO   ] [AUTO] Hedging 16 SELLLL
+2023-03-15 22:07:02.804339 [INFO   ] [AUTO] Current Position is -24 to buy 0 to sell 60
+2023-03-15 22:07:02.940519 [INFO   ] [AUTO] Hedge Buying Order308 for price 149400 vol 32 diff is 200 event 5 position -24
+2023-03-15 22:07:03.451442 [INFO   ] [AUTO] order 306 filled for 21 lots at $150100 cents 2 events
+2023-03-15 22:07:03.451475 [INFO   ] [AUTO] Hedging -21 BUYYYY
+2023-03-15 22:07:03.451506 [INFO   ] [AUTO] Current Position is -45 to buy 32 to sell 39
+2023-03-15 22:07:03.451557 [INFO   ] [AUTO] order 304 filled for 15 lots at $150200 cents 3 events
+2023-03-15 22:07:03.451562 [INFO   ] [AUTO] Hedging -15 BUYYYY
+2023-03-15 22:07:03.451575 [INFO   ] [AUTO] Current Position is -60 to buy 32 to sell 24
+2023-03-15 22:07:03.453275 [INFO   ] [AUTO] Hedge Selling Order311 for price 150000 vol 16 diff is 500 event 5 position -60
+2023-03-15 22:07:03.894791 [INFO   ] [AUTO] Hedge Selling Order312 for price 149900 vol 24 diff is 400 event 6 position -60
+2023-03-15 22:07:05.402967 [INFO   ] [AUTO] Hedge Buying Order313 for price 149400 vol 16 diff is 100 event 3 position -60
+2023-03-15 22:07:05.403004 [INFO   ] [AUTO] Hedge Selling Order314 for price 149800 vol 16 diff is 100 event 4 position -60
+2023-03-15 22:07:05.697553 [INFO   ] [AUTO] Hedge Buying Order315 for price 149500 vol 16 diff is 100 event 5 position -60
+2023-03-15 22:07:06.126435 [INFO   ] [AUTO] Hedge Selling Order316 for price 149700 vol 16 diff is 100 event 5 position -60
+2023-03-15 22:07:06.383891 [INFO   ] [AUTO] Hedge Selling Order317 for price 149600 vol 8 diff is 100 event 6 position -60
+2023-03-15 22:07:06.851778 [INFO   ] [AUTO] order 315 filled for 6 lots at $149500 cents 3 events
+2023-03-15 22:07:06.851815 [INFO   ] [AUTO] Hedging 6 SELLLL
+2023-03-15 22:07:06.851852 [INFO   ] [AUTO] Current Position is -54 to buy 26 to sell 40
+2023-03-15 22:07:06.903607 [INFO   ] [AUTO] Hedge Selling Order319 for price 149500 vol 6 diff is 100 event 5 position -54
+2023-03-15 22:07:06.903628 [INFO   ] [AUTO] Paying the fee
+2023-03-15 22:07:07.688382 [INFO   ] [AUTO] Hedge Buying Order320 for price 149400 vol 80 diff is 500 event 6 position -54
+2023-03-15 22:07:07.699907 [INFO   ] [AUTO] order 320 filled for 48 lots at $149400 cents 7 events
+2023-03-15 22:07:07.699917 [INFO   ] [AUTO] Hedging 48 SELLLL
+2023-03-15 22:07:07.699928 [INFO   ] [AUTO] Current Position is -6 to buy 32 to sell 24
+2023-03-15 22:07:07.940265 [INFO   ] [AUTO] Hedge Buying Order322 for price 149500 vol 64 diff is 400 event 8 position -6
+2023-03-15 22:07:07.940296 [INFO   ] [AUTO] Paying the fee
+2023-03-15 22:07:07.940685 [INFO   ] [AUTO] order 322 filled for 37 lots at $149500 cents 9 events
+2023-03-15 22:07:07.940692 [INFO   ] [AUTO] Hedging 37 SELLLL
+2023-03-15 22:07:07.940702 [INFO   ] [AUTO] Current Position is 31 to buy 59 to sell 24
+2023-03-15 22:07:08.120687 [INFO   ] [AUTO] Hedge Buying Order324 for price 149500 vol 10 diff is 400 event 7 position 31
+2023-03-15 22:07:08.457162 [INFO   ] [AUTO] Hedge Buying Order325 for price 149700 vol 27 diff is 400 event 8 position 31
+2023-03-15 22:07:08.457192 [INFO   ] [AUTO] Paying the fee
+2023-03-15 22:07:08.463690 [INFO   ] [AUTO] order 325 filled for 13 lots at $149700 cents 8 events
+2023-03-15 22:07:08.463716 [INFO   ] [AUTO] Hedging 13 SELLLL
+2023-03-15 22:07:08.463743 [INFO   ] [AUTO] Current Position is 44 to buy 56 to sell 24
+2023-03-15 22:07:08.883173 [INFO   ] [AUTO] Hedge Buying Order327 for price 149700 vol 14 diff is 100 event 7 position 44
+2023-03-15 22:07:08.883205 [INFO   ] [AUTO] Hedge Selling Order328 for price 150200 vol 14 diff is 100 event 8 position 44
+2023-03-15 22:07:09.673476 [INFO   ] [AUTO] Hedge Buying Order329 for price 149800 vol 16 diff is 100 event 4 position 44
+2023-03-15 22:07:09.673513 [INFO   ] [AUTO] Hedge Selling Order330 for price 150100 vol 16 diff is 100 event 5 position 44
+2023-03-15 22:07:09.949696 [INFO   ] [AUTO] order 330 filled for 16 lots at $150100 cents 6 events
+2023-03-15 22:07:09.949741 [INFO   ] [AUTO] Hedging -16 BUYYYY
+2023-03-15 22:07:09.949767 [INFO   ] [AUTO] Current Position is 28 to buy 40 to sell 14
+2023-03-15 22:07:09.949795 [INFO   ] [AUTO] order 328 filled for 14 lots at $150200 cents 5 events
+2023-03-15 22:07:09.949801 [INFO   ] [AUTO] Hedging -14 BUYYYY
+2023-03-15 22:07:09.949816 [INFO   ] [AUTO] Current Position is 14 to buy 40 to sell 0
+2023-03-15 22:07:10.119062 [INFO   ] [AUTO] Hedge Selling Order333 for price 150400 vol 80 diff is 500 event 7 position 14
+2023-03-15 22:07:10.389838 [INFO   ] [AUTO] Hedge Selling Order334 for price 150300 vol 34 diff is 300 event 7 position 14
+2023-03-15 22:07:10.748467 [INFO   ] [AUTO] order 334 filled for 34 lots at $150300 cents 8 events
+2023-03-15 22:07:10.748505 [INFO   ] [AUTO] Hedging -34 BUYYYY
+2023-03-15 22:07:10.748537 [INFO   ] [AUTO] Current Position is -20 to buy 40 to sell 80
+2023-03-15 22:07:11.619969 [INFO   ] [AUTO] Hedge Buying Order336 for price 149700 vol 16 diff is 100 event 3 position -20
+2023-03-15 22:07:12.149268 [INFO   ] [AUTO] Hedge Selling Order337 for price 150300 vol 32 diff is 200 event 4 position -20
+2023-03-15 22:07:12.369298 [INFO   ] [AUTO] Hedge Buying Order338 for price 149800 vol 48 diff is 300 event 4 position -20
+2023-03-15 22:07:12.699766 [INFO   ] [AUTO] Hedge Buying Order339 for price 149900 vol 16 diff is 100 event 3 position -20
+2023-03-15 22:07:13.548693 [INFO   ] [AUTO] order 339 filled for 16 lots at $149900 cents 3 events
+2023-03-15 22:07:13.548726 [INFO   ] [AUTO] Hedging 16 SELLLL
+2023-03-15 22:07:13.548760 [INFO   ] [AUTO] Current Position is -4 to buy 64 to sell 32
+2023-03-15 22:07:13.548783 [INFO   ] [AUTO] order 338 filled for 48 lots at $149800 cents 3 events
+2023-03-15 22:07:13.548788 [INFO   ] [AUTO] Hedging 48 SELLLL
+2023-03-15 22:07:13.548798 [INFO   ] [AUTO] Current Position is 44 to buy 16 to sell 32
+2023-03-15 22:07:13.692538 [INFO   ] [AUTO] Hedge Selling Order342 for price 150200 vol 16 diff is 100 event 5 position 44
+2023-03-15 22:07:14.605394 [INFO   ] [AUTO] order 342 filled for 16 lots at $150200 cents 4 events
+2023-03-15 22:07:14.605426 [INFO   ] [AUTO] Hedging -16 BUYYYY
+2023-03-15 22:07:14.605468 [INFO   ] [AUTO] Current Position is 28 to buy 16 to sell 32
+2023-03-15 22:07:14.682568 [INFO   ] [AUTO] Hedge Selling Order344 for price 150400 vol 32 diff is 200 event 4 position 28
+2023-03-15 22:07:14.682587 [INFO   ] [AUTO] Paying the fee
+2023-03-15 22:07:14.684532 [INFO   ] [AUTO] order 344 filled for 10 lots at $150400 cents 4 events
+2023-03-15 22:07:14.684544 [INFO   ] [AUTO] Hedging -10 BUYYYY
+2023-03-15 22:07:14.684555 [INFO   ] [AUTO] Current Position is 18 to buy 16 to sell 22
+2023-03-15 22:07:14.865935 [INFO   ] [AUTO] Hedge Selling Order346 for price 150400 vol 64 diff is 400 event 4 position 18
+2023-03-15 22:07:15.177594 [INFO   ] [AUTO] Hedge Selling Order347 for price 150300 vol 48 diff is 300 event 5 position 18
+2023-03-15 22:07:15.456037 [INFO   ] [AUTO] Hedge Selling Order348 for price 150200 vol 6 diff is 300 event 6 position 18
+2023-03-15 22:07:16.907393 [INFO   ] [AUTO] Hedge Selling Order349 for price 149900 vol 32 diff is 200 event 3 position 18
+2023-03-15 22:07:17.192083 [INFO   ] [AUTO] Hedge Selling Order350 for price 149800 vol 16 diff is 100 event 5 position 18
+2023-03-15 22:07:17.408503 [INFO   ] [AUTO] Hedge Buying Order351 for price 149400 vol 32 diff is 200 event 6 position 18
+2023-03-15 22:07:17.553767 [INFO   ] [AUTO] order 350 filled for 16 lots at $149800 cents 6 events
+2023-03-15 22:07:17.553794 [INFO   ] [AUTO] Hedging -16 BUYYYY
+2023-03-15 22:07:17.553819 [INFO   ] [AUTO] Current Position is 2 to buy 32 to sell 32
+2023-03-15 22:07:17.553845 [INFO   ] [AUTO] order 349 filled for 32 lots at $149900 cents 6 events
+2023-03-15 22:07:17.553850 [INFO   ] [AUTO] Hedging -32 BUYYYY
+2023-03-15 22:07:17.553859 [INFO   ] [AUTO] Current Position is -30 to buy 32 to sell 0
+2023-03-15 22:07:17.666081 [INFO   ] [AUTO] Hedge Selling Order354 for price 150000 vol 16 diff is 100 event 8 position -30
+2023-03-15 22:07:17.952245 [INFO   ] [AUTO] Hedge Buying Order355 for price 149500 vol 32 diff is 200 event 8 position -30
+2023-03-15 22:07:18.193330 [INFO   ] [AUTO] Hedge Buying Order356 for price 149600 vol 64 diff is 400 event 7 position -30
+2023-03-15 22:07:18.414164 [INFO   ] [AUTO] Hedge Buying Order357 for price 149800 vol 2 diff is 400 event 7 position -30
+2023-03-15 22:07:18.855686 [INFO   ] [AUTO] order 354 filled for 16 lots at $150000 cents 4 events
+2023-03-15 22:07:18.855722 [INFO   ] [AUTO] Hedging -16 BUYYYY
+2023-03-15 22:07:18.855749 [INFO   ] [AUTO] Current Position is -46 to buy 130 to sell 0
+2023-03-15 22:07:18.924006 [INFO   ] [AUTO] Hedge Buying Order359 for price 150400 vol 16 diff is 300 event 5 position -46
+2023-03-15 22:07:19.752580 [INFO   ] [AUTO] order 359 filled for 4 lots at $150400 cents 5 events
+2023-03-15 22:07:19.752610 [INFO   ] [AUTO] Hedging 4 SELLLL
+2023-03-15 22:07:19.752638 [INFO   ] [AUTO] Current Position is -42 to buy 78 to sell 0
+2023-03-15 22:07:20.690779 [INFO   ] [AUTO] Hedge Buying Order361 for price 150300 vol 64 diff is 400 event 4 position -42
+2023-03-15 22:07:20.920463 [INFO   ] [AUTO] Hedge Buying Order362 for price 150400 vol 48 diff is 300 event 4 position -42
+2023-03-15 22:07:21.164663 [INFO   ] [AUTO] Hedge Buying Order363 for price 150500 vol 30 diff is 200 event 4 position -42
+2023-03-15 22:07:22.673679 [INFO   ] [AUTO] Hedge Buying Order364 for price 150600 vol 16 diff is 100 event 3 position -42
+2023-03-15 22:07:22.673828 [INFO   ] [AUTO] Paying the fee
+2023-03-15 22:07:22.674177 [INFO   ] [AUTO] order 364 filled for 16 lots at $150600 cents 4 events
+2023-03-15 22:07:22.674204 [INFO   ] [AUTO] Hedging 16 SELLLL
+2023-03-15 22:07:22.674305 [INFO   ] [AUTO] Current Position is -26 to buy 30 to sell 0
+2023-03-15 22:07:22.899222 [INFO   ] [AUTO] Hedge Buying Order366 for price 150300 vol 64 diff is 400 event 6 position -26
+2023-03-15 22:07:23.153690 [INFO   ] [AUTO] Hedge Buying Order367 for price 150400 vol 48 diff is 300 event 7 position -26
+2023-03-15 22:07:23.393476 [INFO   ] [AUTO] Hedge Buying Order368 for price 150500 vol 14 diff is 300 event 7 position -26
+2023-03-15 22:07:24.950068 [INFO   ] [AUTO] Hedge Buying Order369 for price 150600 vol 64 diff is 400 event 3 position -26
+2023-03-15 22:07:24.950134 [INFO   ] [AUTO] Paying the fee
+2023-03-15 22:07:24.951648 [INFO   ] [AUTO] order 369 filled for 44 lots at $150600 cents 4 events
+2023-03-15 22:07:24.951668 [INFO   ] [AUTO] Hedging 44 SELLLL
+2023-03-15 22:07:24.951694 [INFO   ] [AUTO] Current Position is 18 to buy 34 to sell 0
+2023-03-15 22:07:25.178394 [INFO   ] [AUTO] Hedge Buying Order371 for price 150600 vol 48 diff is 500 event 6 position 18
+2023-03-15 22:07:25.417871 [INFO   ] [AUTO] Hedge Buying Order372 for price 150800 vol 34 diff is 400 event 7 position 18
+2023-03-15 22:07:25.417989 [INFO   ] [AUTO] Paying the fee
+2023-03-15 22:07:25.418270 [INFO   ] [AUTO] order 372 filled for 34 lots at $150800 cents 7 events
+2023-03-15 22:07:25.418281 [INFO   ] [AUTO] Hedging 34 SELLLL
+2023-03-15 22:07:25.418381 [INFO   ] [AUTO] Current Position is 52 to buy 48 to sell 0
+2023-03-15 22:07:27.117967 [INFO   ] [AUTO] Hedge Buying Order374 for price 151100 vol 48 diff is 400 event 2 position 52
+2023-03-15 22:07:27.255590 [INFO   ] [AUTO] order 374 filled for 43 lots at $151100 cents 2 events
+2023-03-15 22:07:27.255623 [INFO   ] [AUTO] Hedging 43 SELLLL
+2023-03-15 22:07:27.255648 [INFO   ] [AUTO] Current Position is 95 to buy 5 to sell 0
+2023-03-15 22:07:27.854891 [INFO   ] [AUTO] order 374 filled for 5 lots at $151100 cents 3 events
+2023-03-15 22:07:27.854925 [INFO   ] [AUTO] Hedging 5 SELLLL
+2023-03-15 22:07:27.854953 [INFO   ] [AUTO] Current Position is 100 to buy 0 to sell 0
+2023-03-15 22:08:05.443982 [INFO   ] [AUTO] Hedge Selling Order377 for price 153100 vol 32 diff is 200 event 1 position 100
+2023-03-15 22:08:05.913203 [INFO   ] [AUTO] Hedge Selling Order378 for price 153000 vol 48 diff is 300 event 2 position 100
+2023-03-15 22:08:06.340999 [INFO   ] [AUTO] order 378 filled for 9 lots at $153000 cents 2 events
+2023-03-15 22:08:06.341074 [INFO   ] [AUTO] Hedging -9 BUYYYY
+2023-03-15 22:08:06.341120 [INFO   ] [AUTO] Current Position is 91 to buy 0 to sell 71
+2023-03-15 22:08:06.386658 [INFO   ] [AUTO] Hedge Buying Order380 for price 152400 vol 9 diff is 500 event 4 position 91
+2023-03-15 22:08:07.720610 [INFO   ] [AUTO] order 380 filled for 9 lots at $152400 cents 2 events
+2023-03-15 22:08:07.720690 [INFO   ] [AUTO] Hedging 9 SELLLL
+2023-03-15 22:08:07.720734 [INFO   ] [AUTO] Current Position is 100 to buy 0 to sell 71
+2023-03-15 22:08:09.626801 [INFO   ] [AUTO] Hedge Selling Order382 for price 153400 vol 32 diff is 200 event 1 position 100
+2023-03-15 22:08:11.153529 [INFO   ] [AUTO] Hedge Selling Order383 for price 153300 vol 48 diff is 300 event 1 position 100
+2023-03-15 22:08:11.429674 [INFO   ] [AUTO] Hedge Selling Order384 for price 153200 vol 64 diff is 400 event 3 position 100
+2023-03-15 22:08:11.705224 [INFO   ] [AUTO] Hedge Selling Order385 for price 153100 vol 32 diff is 200 event 4 position 100
+2023-03-15 22:08:11.891843 [INFO   ] [AUTO] Hedge Selling Order386 for price 153000 vol 48 diff is 300 event 5 position 100
+2023-03-15 22:08:12.166426 [INFO   ] [AUTO] Hedge Selling Order387 for price 152900 vol 8 diff is 100 event 6 position 100
+2023-03-15 22:08:13.395139 [INFO   ] [AUTO] Hedge Selling Order388 for price 152800 vol 16 diff is 100 event 4 position 100
+2023-03-15 22:08:13.395171 [INFO   ] [AUTO] Paying the fee
+2023-03-15 22:08:13.396035 [INFO   ] [AUTO] order 388 filled for 16 lots at $152800 cents 5 events
+2023-03-15 22:08:13.396042 [INFO   ] [AUTO] Hedging -16 BUYYYY
+2023-03-15 22:08:13.396052 [INFO   ] [AUTO] Current Position is 84 to buy 0 to sell 56
+2023-03-15 22:08:13.865088 [INFO   ] [AUTO] Hedge Selling Order390 for price 153300 vol 80 diff is 500 event 7 position 84
+2023-03-15 22:08:14.121591 [INFO   ] [AUTO] Hedge Selling Order391 for price 153200 vol 16 diff is 100 event 7 position 84
+2023-03-15 22:08:14.364410 [INFO   ] [AUTO] Hedge Selling Order392 for price 153100 vol 32 diff is 200 event 7 position 84
+2023-03-15 22:08:14.624921 [INFO   ] [AUTO] Hedge Selling Order393 for price 153000 vol 16 diff is 100 event 5 position 84
+2023-03-15 22:08:14.859153 [INFO   ] [AUTO] Hedge Buying Order394 for price 152400 vol 16 diff is 500 event 5 position 84
+2023-03-15 22:08:14.904543 [INFO   ] [AUTO] order 393 filled for 16 lots at $153000 cents 5 events
+2023-03-15 22:08:14.904559 [INFO   ] [AUTO] Hedging -16 BUYYYY
+2023-03-15 22:08:14.904583 [INFO   ] [AUTO] Current Position is 68 to buy 16 to sell 128
+2023-03-15 22:08:14.904588 [INFO   ] [AUTO] order 392 filled for 32 lots at $153100 cents 6 events
+2023-03-15 22:08:14.904591 [INFO   ] [AUTO] Hedging -32 BUYYYY
+2023-03-15 22:08:14.904593 [INFO   ] [AUTO] Current Position is 36 to buy 16 to sell 96
+2023-03-15 22:08:14.904595 [INFO   ] [AUTO] order 391 filled for 6 lots at $153200 cents 7 events
+2023-03-15 22:08:14.904597 [INFO   ] [AUTO] Hedging -6 BUYYYY
+2023-03-15 22:08:14.904604 [INFO   ] [AUTO] Current Position is 30 to buy 16 to sell 90
+2023-03-15 22:08:15.165309 [INFO   ] [AUTO] Hedge Buying Order398 for price 152600 vol 48 diff is 300 event 8 position 30
+2023-03-15 22:08:15.385129 [INFO   ] [AUTO] Hedge Buying Order399 for price 152700 vol 6 diff is 300 event 8 position 30
+2023-03-15 22:08:15.558210 [INFO   ] [AUTO] order 399 filled for 6 lots at $152700 cents 9 events
+2023-03-15 22:08:15.558241 [INFO   ] [AUTO] Hedging 6 SELLLL
+2023-03-15 22:08:15.558365 [INFO   ] [AUTO] Current Position is 36 to buy 64 to sell 90
+2023-03-15 22:08:15.558385 [INFO   ] [AUTO] order 398 filled for 48 lots at $152600 cents 9 events
+2023-03-15 22:08:15.558390 [INFO   ] [AUTO] Hedging 48 SELLLL
+2023-03-15 22:08:15.558400 [INFO   ] [AUTO] Current Position is 84 to buy 16 to sell 90
+2023-03-15 22:08:15.558406 [INFO   ] [AUTO] order 394 filled for 12 lots at $152400 cents 10 events
+2023-03-15 22:08:15.558531 [INFO   ] [AUTO] Hedging 12 SELLLL
+2023-03-15 22:08:15.558535 [INFO   ] [AUTO] Current Position is 96 to buy 4 to sell 90
+2023-03-15 22:08:16.874965 [INFO   ] [AUTO] Hedge Buying Order403 for price 153300 vol 4 diff is 500 event 2 position 96
+2023-03-15 22:08:17.193221 [INFO   ] [AUTO] Hedge Selling Order404 for price 153700 vol 16 diff is 100 event 3 position 96
+2023-03-15 22:08:17.366213 [INFO   ] [AUTO] Hedge Selling Order405 for price 153600 vol 16 diff is 100 event 4 position 96
+2023-03-15 22:08:17.703749 [INFO   ] [AUTO] order 405 filled for 16 lots at $153600 cents 3 events
+2023-03-15 22:08:17.703922 [INFO   ] [AUTO] Hedging -16 BUYYYY
+2023-03-15 22:08:17.704061 [INFO   ] [AUTO] Current Position is 80 to buy 4 to sell 16
+2023-03-15 22:08:17.704122 [INFO   ] [AUTO] order 404 filled for 16 lots at $153700 cents 4 events
+2023-03-15 22:08:17.704132 [INFO   ] [AUTO] Hedging -16 BUYYYY
+2023-03-15 22:08:17.704237 [INFO   ] [AUTO] Current Position is 64 to buy 4 to sell 0
+2023-03-15 22:08:17.928015 [INFO   ] [AUTO] Hedge Selling Order408 for price 153800 vol 48 diff is 300 event 5 position 64
+2023-03-15 22:08:18.170204 [INFO   ] [AUTO] Hedge Buying Order409 for price 153400 vol 16 diff is 100 event 6 position 64
+2023-03-15 22:08:18.170287 [INFO   ] [AUTO] Hedge Selling Order410 for price 153700 vol 16 diff is 100 event 7 position 64
+2023-03-15 22:08:18.237279 [INFO   ] [AUTO] order 409 filled for 5 lots at $153400 cents 7 events
+2023-03-15 22:08:18.237308 [INFO   ] [AUTO] Hedging 5 SELLLL
+2023-03-15 22:08:18.237332 [INFO   ] [AUTO] Current Position is 69 to buy 15 to sell 64
+2023-03-15 22:08:18.629039 [INFO   ] [AUTO] Hedge Buying Order412 for price 153500 vol 16 diff is 100 event 8 position 69
+2023-03-15 22:08:18.886077 [INFO   ] [AUTO] Hedge Selling Order413 for price 153600 vol 16 diff is 100 event 7 position 69
+2023-03-15 22:08:20.439250 [INFO   ] [AUTO] Hedge Buying Order414 for price 153200 vol 4 diff is 100 event 4 position 69
+2023-03-15 22:08:20.658727 [INFO   ] [AUTO] Hedge Selling Order415 for price 153800 vol 48 diff is 300 event 6 position 69
+2023-03-15 22:08:20.894954 [INFO   ] [AUTO] Hedge Selling Order416 for price 153700 vol 32 diff is 200 event 5 position 69
+2023-03-15 22:08:21.693006 [INFO   ] [AUTO] order 416 filled for 25 lots at $153700 cents 2 events
+2023-03-15 22:08:21.693042 [INFO   ] [AUTO] Hedging -25 BUYYYY
+2023-03-15 22:08:21.693076 [INFO   ] [AUTO] Current Position is 44 to buy 4 to sell 55
+2023-03-15 22:08:21.805792 [INFO   ] [AUTO] order 414 filled for 4 lots at $153200 cents 3 events
+2023-03-15 22:08:21.805827 [INFO   ] [AUTO] Hedging 4 SELLLL
+2023-03-15 22:08:21.805853 [INFO   ] [AUTO] Current Position is 48 to buy 0 to sell 55
+2023-03-15 22:08:21.864608 [INFO   ] [AUTO] Hedge Buying Order419 for price 153200 vol 32 diff is 200 event 4 position 48
+2023-03-15 22:08:22.127310 [INFO   ] [AUTO] Hedge Buying Order420 for price 153300 vol 20 diff is 200 event 4 position 48
+2023-03-15 22:08:22.346831 [INFO   ] [AUTO] order 416 filled for 7 lots at $153700 cents 5 events
+2023-03-15 22:08:22.346868 [INFO   ] [AUTO] Hedging -7 BUYYYY
+2023-03-15 22:08:22.346896 [INFO   ] [AUTO] Current Position is 41 to buy 52 to sell 48
+2023-03-15 22:08:22.386072 [INFO   ] [AUTO] Hedge Buying Order422 for price 153400 vol 7 diff is 200 event 7 position 41
+2023-03-15 22:08:22.386084 [INFO   ] [AUTO] Hedge Selling Order423 for price 153800 vol 7 diff is 200 event 8 position 41
+2023-03-15 22:08:22.689789 [INFO   ] [AUTO] Hedge Selling Order424 for price 153700 vol 16 diff is 100 event 9 position 41
+2023-03-15 22:08:23.302137 [INFO   ] [AUTO] order 424 filled for 16 lots at $153700 cents 6 events
+2023-03-15 22:08:23.302169 [INFO   ] [AUTO] Hedging -16 BUYYYY
+2023-03-15 22:08:23.302194 [INFO   ] [AUTO] Current Position is 25 to buy 59 to sell 7
+2023-03-15 22:08:23.302220 [INFO   ] [AUTO] order 423 filled for 7 lots at $153800 cents 5 events
+2023-03-15 22:08:23.302223 [INFO   ] [AUTO] Hedging -7 BUYYYY
+2023-03-15 22:08:23.302233 [INFO   ] [AUTO] Current Position is 18 to buy 59 to sell 0
+2023-03-15 22:08:23.359897 [INFO   ] [AUTO] Hedge Selling Order427 for price 153800 vol 32 diff is 200 event 7 position 18
+2023-03-15 22:08:23.689130 [INFO   ] [AUTO] Hedge Selling Order428 for price 153700 vol 16 diff is 100 event 6 position 18
+2023-03-15 22:08:24.155139 [INFO   ] [AUTO] Hedge Buying Order429 for price 153200 vol 23 diff is 300 event 8 position 18
+2023-03-15 22:08:24.464229 [INFO   ] [AUTO] Hedge Buying Order430 for price 153300 vol 16 diff is 100 event 5 position 18
+2023-03-15 22:08:24.702571 [INFO   ] [AUTO] Hedge Selling Order431 for price 153600 vol 16 diff is 100 event 6 position 18
+2023-03-15 22:08:24.742804 [INFO   ] [AUTO] order 430 filled for 13 lots at $153300 cents 6 events
+2023-03-15 22:08:24.742955 [INFO   ] [AUTO] Hedging 13 SELLLL
+2023-03-15 22:08:24.742999 [INFO   ] [AUTO] Current Position is 31 to buy 26 to sell 64
+2023-03-15 22:08:25.342760 [INFO   ] [AUTO] order 431 filled for 16 lots at $153600 cents 6 events
+2023-03-15 22:08:25.342824 [INFO   ] [AUTO] Hedging -16 BUYYYY
+2023-03-15 22:08:25.342859 [INFO   ] [AUTO] Current Position is 15 to buy 26 to sell 48
+2023-03-15 22:08:25.444398 [INFO   ] [AUTO] Hedge Selling Order434 for price 153800 vol 48 diff is 300 event 7 position 15
+2023-03-15 22:08:25.553555 [INFO   ] [AUTO] order 434 filled for 44 lots at $153800 cents 7 events
+2023-03-15 22:08:25.553616 [INFO   ] [AUTO] Hedging -44 BUYYYY
+2023-03-15 22:08:25.553663 [INFO   ] [AUTO] Current Position is -29 to buy 26 to sell 4
+2023-03-15 22:08:25.688150 [INFO   ] [AUTO] Hedge Selling Order436 for price 153700 vol 32 diff is 200 event 8 position -29
+2023-03-15 22:08:25.688189 [INFO   ] [AUTO] Paying the fee
+2023-03-15 22:08:25.691492 [INFO   ] [AUTO] order 436 filled for 7 lots at $153700 cents 9 events
+2023-03-15 22:08:25.691512 [INFO   ] [AUTO] Hedging -7 BUYYYY
+2023-03-15 22:08:25.691537 [INFO   ] [AUTO] Current Position is -36 to buy 26 to sell 29
+2023-03-15 22:08:25.952870 [INFO   ] [AUTO] Hedge Buying Order438 for price 153400 vol 16 diff is 100 event 8 position -36
+2023-03-15 22:08:25.952901 [INFO   ] [AUTO] Hedge Selling Order439 for price 153700 vol 16 diff is 100 event 9 position -36
+2023-03-15 22:08:26.393839 [INFO   ] [AUTO] order 438 filled for 16 lots at $153400 cents 10 events
+2023-03-15 22:08:26.393870 [INFO   ] [AUTO] Hedging 16 SELLLL
+2023-03-15 22:08:26.393900 [INFO   ] [AUTO] Current Position is -20 to buy 3 to sell 20
+2023-03-15 22:08:26.404482 [INFO   ] [AUTO] Hedge Buying Order441 for price 153200 vol 48 diff is 300 event 10 position -20
+2023-03-15 22:08:26.627886 [INFO   ] [AUTO] Hedge Buying Order442 for price 153300 vol 32 diff is 200 event 9 position -20
+2023-03-15 22:08:26.912337 [INFO   ] [AUTO] Hedge Buying Order443 for price 153400 vol 16 diff is 100 event 7 position -20
+2023-03-15 22:08:27.372657 [INFO   ] [AUTO] Hedge Selling Order444 for price 153600 vol 16 diff is 100 event 6 position -20
+2023-03-15 22:08:27.893835 [INFO   ] [AUTO] Hedge Selling Order445 for price 153500 vol 16 diff is 100 event 5 position -20
+2023-03-15 22:08:28.177034 [INFO   ] [AUTO] Hedge Selling Order446 for price 153400 vol 16 diff is 100 event 6 position -20
+2023-03-15 22:08:28.177064 [INFO   ] [AUTO] Paying the fee
+2023-03-15 22:08:28.662580 [INFO   ] [AUTO] Hedge Buying Order447 for price 153200 vol 24 diff is 200 event 6 position -20
+2023-03-15 22:08:28.744762 [INFO   ] [AUTO] order 445 filled for 16 lots at $153500 cents 6 events
+2023-03-15 22:08:28.744837 [INFO   ] [AUTO] Hedging -16 BUYYYY
+2023-03-15 22:08:28.744864 [INFO   ] [AUTO] Current Position is -36 to buy 24 to sell 32
+2023-03-15 22:08:28.744872 [INFO   ] [AUTO] order 444 filled for 12 lots at $153600 cents 7 events
+2023-03-15 22:08:28.744875 [INFO   ] [AUTO] Hedging -12 BUYYYY
+2023-03-15 22:08:28.744879 [INFO   ] [AUTO] Current Position is -48 to buy 24 to sell 20
+2023-03-15 22:08:28.946875 [INFO   ] [AUTO] Hedge Buying Order450 for price 153300 vol 32 diff is 200 event 7 position -48
+2023-03-15 22:08:29.045509 [INFO   ] [AUTO] order 450 filled for 32 lots at $153300 cents 8 events
+2023-03-15 22:08:29.045542 [INFO   ] [AUTO] Hedging 32 SELLLL
+2023-03-15 22:08:29.045571 [INFO   ] [AUTO] Current Position is -16 to buy 24 to sell 20
+2023-03-15 22:08:29.045589 [INFO   ] [AUTO] order 447 filled for 24 lots at $153200 cents 9 events
+2023-03-15 22:08:29.045592 [INFO   ] [AUTO] Hedging 24 SELLLL
+2023-03-15 22:08:29.045608 [INFO   ] [AUTO] Current Position is 8 to buy 0 to sell 20
+2023-03-15 22:08:29.198664 [INFO   ] [AUTO] Hedge Buying Order453 for price 153100 vol 80 diff is 500 event 11 position 8
+2023-03-15 22:08:29.198693 [INFO   ] [AUTO] Paying the fee
+2023-03-15 22:08:29.200244 [INFO   ] [AUTO] order 453 filled for 14 lots at $153100 cents 11 events
+2023-03-15 22:08:29.200253 [INFO   ] [AUTO] Hedging 14 SELLLL
+2023-03-15 22:08:29.200267 [INFO   ] [AUTO] Current Position is 22 to buy 66 to sell 20
+2023-03-15 22:08:29.413863 [INFO   ] [AUTO] Hedge Buying Order455 for price 153300 vol 12 diff is 300 event 10 position 22
+2023-03-15 22:08:29.668811 [INFO   ] [AUTO] Hedge Buying Order456 for price 153400 vol 32 diff is 200 event 11 position 22
+2023-03-15 22:08:29.668843 [INFO   ] [AUTO] Hedge Selling Order457 for price 153800 vol 32 diff is 200 event 12 position 22
+2023-03-15 22:08:29.930846 [INFO   ] [AUTO] Hedge Selling Order458 for price 153700 vol 16 diff is 100 event 10 position 22
+2023-03-15 22:08:30.118067 [INFO   ] [AUTO] Hedge Selling Order459 for price 153600 vol 16 diff is 100 event 7 position 22
+2023-03-15 22:08:30.923371 [INFO   ] [AUTO] Hedge Buying Order460 for price 153500 vol 32 diff is 200 event 3 position 22
+2023-03-15 22:08:31.698508 [INFO   ] [AUTO] Hedge Buying Order461 for price 153600 vol 2 diff is 100 event 7 position 22
+2023-03-15 22:08:31.698539 [INFO   ] [AUTO] Paying the fee
+2023-03-15 22:08:31.917752 [INFO   ] [AUTO] Hedge Buying Order462 for price 153600 vol 16 diff is 100 event 8 position 22
+2023-03-15 22:08:32.357167 [INFO   ] [AUTO] Hedge Selling Order463 for price 153800 vol 32 diff is 200 event 5 position 22
+2023-03-15 22:08:33.628367 [INFO   ] [AUTO] Hedge Selling Order464 for price 153700 vol 16 diff is 100 event 2 position 22
+2023-03-15 22:08:33.628428 [INFO   ] [AUTO] Paying the fee
+2023-03-15 22:08:33.629124 [INFO   ] [AUTO] order 464 filled for 16 lots at $153700 cents 2 events
+2023-03-15 22:08:33.629143 [INFO   ] [AUTO] Hedging -16 BUYYYY
+2023-03-15 22:08:33.629168 [INFO   ] [AUTO] Current Position is 6 to buy 48 to sell 32
+2023-03-15 22:08:33.920213 [INFO   ] [AUTO] Hedge Selling Order466 for price 153700 vol 32 diff is 200 event 4 position 6
+2023-03-15 22:08:33.920274 [INFO   ] [AUTO] Paying the fee
+2023-03-15 22:08:33.920750 [INFO   ] [AUTO] order 466 filled for 23 lots at $153700 cents 5 events
+2023-03-15 22:08:33.920769 [INFO   ] [AUTO] Hedging -23 BUYYYY
+2023-03-15 22:08:33.920793 [INFO   ] [AUTO] Current Position is -17 to buy 48 to sell 41
+2023-03-15 22:08:34.131549 [INFO   ] [AUTO] Hedge Selling Order468 for price 153600 vol 42 diff is 300 event 7 position -17
+2023-03-15 22:08:34.364170 [INFO   ] [AUTO] Hedge Buying Order469 for price 153000 vol 48 diff is 300 event 8 position -17
+2023-03-15 22:08:34.608514 [INFO   ] [AUTO] Hedge Buying Order470 for price 153100 vol 16 diff is 100 event 8 position -17
+2023-03-15 22:08:34.608577 [INFO   ] [AUTO] Hedge Selling Order471 for price 153500 vol 16 diff is 100 event 9 position -17
+2023-03-15 22:08:34.917457 [INFO   ] [AUTO] Hedge Buying Order472 for price 153200 vol 16 diff is 100 event 8 position -17
+2023-03-15 22:08:34.999211 [INFO   ] [AUTO] order 471 filled for 16 lots at $153500 cents 8 events
+2023-03-15 22:08:34.999263 [INFO   ] [AUTO] Hedging -16 BUYYYY
+2023-03-15 22:08:34.999307 [INFO   ] [AUTO] Current Position is -33 to buy 80 to sell 42
+2023-03-15 22:08:34.999341 [INFO   ] [AUTO] order 468 filled for 42 lots at $153600 cents 6 events
+2023-03-15 22:08:34.999357 [INFO   ] [AUTO] Hedging -42 BUYYYY
+2023-03-15 22:08:34.999381 [INFO   ] [AUTO] Current Position is -75 to buy 80 to sell 0
+2023-03-15 22:08:35.151095 [INFO   ] [AUTO] Hedge Selling Order475 for price 153700 vol 25 diff is 400 event 8 position -75
+2023-03-15 22:08:35.703247 [INFO   ] [AUTO] order 472 filled for 16 lots at $153200 cents 6 events
+2023-03-15 22:08:35.703313 [INFO   ] [AUTO] Hedging 16 SELLLL
+2023-03-15 22:08:35.703361 [INFO   ] [AUTO] Current Position is -59 to buy 64 to sell 25
+2023-03-15 22:08:35.703395 [INFO   ] [AUTO] order 470 filled for 16 lots at $153100 cents 5 events
+2023-03-15 22:08:35.703412 [INFO   ] [AUTO] Hedging 16 SELLLL
+2023-03-15 22:08:35.703438 [INFO   ] [AUTO] Current Position is -43 to buy 48 to sell 25
+2023-03-15 22:08:35.703477 [INFO   ] [AUTO] order 469 filled for 48 lots at $153000 cents 6 events
+2023-03-15 22:08:35.703493 [INFO   ] [AUTO] Hedging 48 SELLLL
+2023-03-15 22:08:35.703517 [INFO   ] [AUTO] Current Position is 5 to buy 0 to sell 25
+2023-03-15 22:08:35.754201 [INFO   ] [AUTO] order 475 filled for 25 lots at $153700 cents 7 events
+2023-03-15 22:08:35.754226 [INFO   ] [AUTO] Hedging -25 BUYYYY
+2023-03-15 22:08:35.754255 [INFO   ] [AUTO] Current Position is -20 to buy 0 to sell 0
+2023-03-15 22:08:35.919635 [INFO   ] [AUTO] Hedge Selling Order480 for price 153300 vol 48 diff is 300 event 9 position -20
+2023-03-15 22:08:36.153655 [INFO   ] [AUTO] Hedge Buying Order481 for price 152800 vol 32 diff is 200 event 7 position -20
+2023-03-15 22:08:36.153717 [INFO   ] [AUTO] Hedge Selling Order482 for price 153200 vol 32 diff is 200 event 8 position -20
+2023-03-15 22:08:37.357072 [INFO   ] [AUTO] order 481 filled for 11 lots at $152800 cents 2 events
+2023-03-15 22:08:37.357136 [INFO   ] [AUTO] Hedging 11 SELLLL
+2023-03-15 22:08:37.357179 [INFO   ] [AUTO] Current Position is -9 to buy 21 to sell 80
+2023-03-15 22:08:37.360311 [INFO   ] [AUTO] Hedge Selling Order484 for price 153100 vol 11 diff is 400 event 2 position -9
+2023-03-15 22:08:37.907078 [INFO   ] [AUTO] Hedge Selling Order485 for price 153000 vol 16 diff is 100 event 6 position -9
+2023-03-15 22:08:38.669354 [INFO   ] [AUTO] Hedge Buying Order486 for price 152800 vol 16 diff is 100 event 4 position -9
+2023-03-15 22:08:39.705070 [INFO   ] [AUTO] Hedge Selling Order487 for price 153400 vol 64 diff is 400 event 4 position -9
+2023-03-15 22:08:39.915099 [INFO   ] [AUTO] Hedge Buying Order488 for price 152900 vol 48 diff is 300 event 4 position -9
+2023-03-15 22:08:40.199663 [INFO   ] [AUTO] order 487 filled for 33 lots at $153400 cents 4 events
+2023-03-15 22:08:40.199721 [INFO   ] [AUTO] Hedging -33 BUYYYY
+2023-03-15 22:08:40.199759 [INFO   ] [AUTO] Current Position is -42 to buy 64 to sell 31
+2023-03-15 22:08:40.301670 [INFO   ] [AUTO] order 488 filled for 48 lots at $152900 cents 5 events
+2023-03-15 22:08:40.301732 [INFO   ] [AUTO] Hedging 48 SELLLL
+2023-03-15 22:08:40.301772 [INFO   ] [AUTO] Current Position is 6 to buy 16 to sell 31
+2023-03-15 22:08:40.371433 [INFO   ] [AUTO] Hedge Buying Order491 for price 152800 vol 48 diff is 300 event 7 position 6
+2023-03-15 22:08:40.640510 [INFO   ] [AUTO] Hedge Buying Order492 for price 152900 vol 46 diff is 400 event 7 position 6
+2023-03-15 22:08:41.091284 [INFO   ] [AUTO] order 487 filled for 7 lots at $153400 cents 6 events
+2023-03-15 22:08:41.091354 [INFO   ] [AUTO] Hedging -7 BUYYYY
+2023-03-15 22:08:41.091399 [INFO   ] [AUTO] Current Position is -1 to buy 94 to sell 24
+2023-03-15 22:08:41.201982 [INFO   ] [AUTO] Hedge Buying Order494 for price 153000 vol 7 diff is 1000 event 6 position -1
+2023-03-15 22:08:42.359818 [INFO   ] [AUTO] Hedge Buying Order495 for price 153500 vol 48 diff is 300 event 3 position -1
+2023-03-15 22:08:42.607565 [INFO   ] [AUTO] Hedge Buying Order496 for price 153600 vol 46 diff is 300 event 4 position -1
+2023-03-15 22:08:43.174718 [INFO   ] [AUTO] Hedge Buying Order497 for price 153700 vol 7 diff is 300 event 5 position -1
+2023-03-15 22:08:43.594777 [INFO   ] [AUTO] order 497 filled for 7 lots at $153700 cents 3 events
+2023-03-15 22:08:43.594835 [INFO   ] [AUTO] Hedging 7 SELLLL
+2023-03-15 22:08:43.594875 [INFO   ] [AUTO] Current Position is 6 to buy 94 to sell 24
+2023-03-15 22:08:43.594908 [INFO   ] [AUTO] order 496 filled for 46 lots at $153600 cents 4 events
+2023-03-15 22:08:43.594925 [INFO   ] [AUTO] Hedging 46 SELLLL
+2023-03-15 22:08:43.594948 [INFO   ] [AUTO] Current Position is 52 to buy 48 to sell 24
+2023-03-15 22:08:44.404850 [INFO   ] [AUTO] Hedge Buying Order500 for price 153700 vol 48 diff is 500 event 4 position 52
+2023-03-15 22:08:46.392408 [INFO   ] [AUTO] Hedge Buying Order501 for price 154000 vol 48 diff is 400 event 2 position 52
+2023-03-15 22:08:48.179465 [INFO   ] [AUTO] Hedge Selling Order502 for price 154300 vol 16 diff is 100 event 2 position 52
+2023-03-15 22:08:48.179523 [INFO   ] [AUTO] Paying the fee
+2023-03-15 22:08:48.180032 [INFO   ] [AUTO] order 502 filled for 16 lots at $154300 cents 2 events
+2023-03-15 22:08:48.180050 [INFO   ] [AUTO] Hedging -16 BUYYYY
+2023-03-15 22:08:48.180076 [INFO   ] [AUTO] Current Position is 36 to buy 48 to sell 0
+2023-03-15 22:08:48.421907 [INFO   ] [AUTO] Hedge Selling Order504 for price 154300 vol 16 diff is 100 event 4 position 36
+2023-03-15 22:08:48.421964 [INFO   ] [AUTO] Paying the fee
+2023-03-15 22:08:48.435716 [INFO   ] [AUTO] order 504 filled for 16 lots at $154300 cents 4 events
+2023-03-15 22:08:48.435736 [INFO   ] [AUTO] Hedging -16 BUYYYY
+2023-03-15 22:08:48.435762 [INFO   ] [AUTO] Current Position is 20 to buy 48 to sell 0
+2023-03-15 22:08:48.689256 [INFO   ] [AUTO] Hedge Selling Order506 for price 154300 vol 32 diff is 200 event 6 position 20
+2023-03-15 22:08:48.689319 [INFO   ] [AUTO] Paying the fee
+2023-03-15 22:08:48.693420 [INFO   ] [AUTO] order 506 filled for 32 lots at $154300 cents 6 events
+2023-03-15 22:08:48.693440 [INFO   ] [AUTO] Hedging -32 BUYYYY
+2023-03-15 22:08:48.693468 [INFO   ] [AUTO] Current Position is -12 to buy 48 to sell 0
+2023-03-15 22:08:48.914898 [INFO   ] [AUTO] Hedge Selling Order508 for price 154300 vol 32 diff is 200 event 8 position -12
+2023-03-15 22:08:48.914954 [INFO   ] [AUTO] Paying the fee
+2023-03-15 22:08:48.915388 [INFO   ] [AUTO] order 508 filled for 32 lots at $154300 cents 8 events
+2023-03-15 22:08:48.915405 [INFO   ] [AUTO] Hedging -32 BUYYYY
+2023-03-15 22:08:48.915431 [INFO   ] [AUTO] Current Position is -44 to buy 48 to sell 0
+2023-03-15 22:08:49.162825 [INFO   ] [AUTO] Hedge Selling Order510 for price 154300 vol 48 diff is 300 event 9 position -44
+2023-03-15 22:08:49.162867 [INFO   ] [AUTO] Paying the fee
+2023-03-15 22:08:49.170266 [INFO   ] [AUTO] order 510 filled for 28 lots at $154300 cents 9 events
+2023-03-15 22:08:49.170285 [INFO   ] [AUTO] Hedging -28 BUYYYY
+2023-03-15 22:08:49.170312 [INFO   ] [AUTO] Current Position is -72 to buy 48 to sell 20
+2023-03-15 22:08:49.439699 [INFO   ] [AUTO] Hedge Selling Order512 for price 154300 vol 8 diff is 400 event 9 position -72
+2023-03-15 22:08:49.706207 [INFO   ] [AUTO] Hedge Selling Order513 for price 154200 vol 20 diff is 300 event 8 position -72
+2023-03-15 22:08:49.706266 [INFO   ] [AUTO] Paying the fee
+2023-03-15 22:08:49.706530 [INFO   ] [AUTO] order 513 filled for 20 lots at $154200 cents 8 events
+2023-03-15 22:08:49.706548 [INFO   ] [AUTO] Hedging -20 BUYYYY
+2023-03-15 22:08:49.706574 [INFO   ] [AUTO] Current Position is -92 to buy 48 to sell 8
+2023-03-15 22:08:50.854781 [INFO   ] [AUTO] order 512 filled for 8 lots at $154300 cents 2 events
+2023-03-15 22:08:50.854875 [INFO   ] [AUTO] Hedging -8 BUYYYY
+2023-03-15 22:08:50.854919 [INFO   ] [AUTO] Current Position is -100 to buy 48 to sell 0
+2023-03-15 22:08:52.404929 [INFO   ] [AUTO] Hedge Buying Order516 for price 153800 vol 16 diff is 100 event 1 position -100
+2023-03-15 22:09:07.376433 [INFO   ] [AUTO] Hedge Buying Order517 for price 153200 vol 16 diff is 100 event 1 position -100
+2023-03-15 22:09:10.367074 [INFO   ] [AUTO] Hedge Buying Order518 for price 153200 vol 48 diff is 300 event 1 position -100
+2023-03-15 22:09:12.112844 [INFO   ] [AUTO] Hedge Buying Order519 for price 153200 vol 32 diff is 200 event 2 position -100
+2023-03-15 22:09:14.869905 [INFO   ] [AUTO] Hedge Buying Order520 for price 153100 vol 16 diff is 100 event 1 position -100
+2023-03-15 22:09:15.458674 [INFO   ] [AUTO] order 520 filled for 16 lots at $153100 cents 1 events
+2023-03-15 22:09:15.458923 [INFO   ] [AUTO] Hedging 16 SELLLL
+2023-03-15 22:09:15.459265 [INFO   ] [AUTO] Current Position is -84 to buy 0 to sell 0
+2023-03-15 22:09:15.679490 [INFO   ] [AUTO] Hedge Selling Order522 for price 153100 vol 16 diff is 100 event 3 position -84
+2023-03-15 22:09:15.943451 [INFO   ] [AUTO] Hedge Buying Order523 for price 152600 vol 32 diff is 200 event 3 position -84
+2023-03-15 22:09:16.168247 [INFO   ] [AUTO] Hedge Buying Order524 for price 152700 vol 16 diff is 100 event 4 position -84
+2023-03-15 22:09:16.708491 [INFO   ] [AUTO] order 522 filled for 3 lots at $153100 cents 3 events
+2023-03-15 22:09:16.708526 [INFO   ] [AUTO] Hedging -3 BUYYYY
+2023-03-15 22:09:16.708553 [INFO   ] [AUTO] Current Position is -87 to buy 48 to sell 13
+2023-03-15 22:09:17.677289 [INFO   ] [AUTO] Hedge Selling Order526 for price 153300 vol 13 diff is 500 event 4 position -87
+2023-03-15 22:09:19.132747 [INFO   ] [AUTO] Hedge Buying Order527 for price 152200 vol 64 diff is 400 event 1 position -87
+2023-03-15 22:09:19.394962 [INFO   ] [AUTO] Hedge Buying Order528 for price 152300 vol 48 diff is 300 event 3 position -87
+2023-03-15 22:09:19.692046 [INFO   ] [AUTO] Hedge Buying Order529 for price 152400 vol 16 diff is 100 event 4 position -87
+2023-03-15 22:09:21.433855 [INFO   ] [AUTO] Hedge Buying Order530 for price 152100 vol 48 diff is 300 event 4 position -87
+2023-03-15 22:09:21.665853 [INFO   ] [AUTO] Hedge Buying Order531 for price 152200 vol 32 diff is 200 event 4 position -87
+2023-03-15 22:09:21.915453 [INFO   ] [AUTO] Hedge Buying Order532 for price 152300 vol 32 diff is 200 event 5 position -87
+2023-03-15 22:09:22.399491 [INFO   ] [AUTO] Hedge Selling Order533 for price 152600 vol 13 diff is 100 event 4 position -87
+2023-03-15 22:09:22.599660 [INFO   ] [AUTO] order 533 filled for 13 lots at $152600 cents 4 events
+2023-03-15 22:09:22.599694 [INFO   ] [AUTO] Hedging -13 BUYYYY
+2023-03-15 22:09:22.599720 [INFO   ] [AUTO] Current Position is -100 to buy 112 to sell 0
+2023-03-15 22:09:43.167530 [INFO   ] [AUTO] Hedge Buying Order535 for price 151600 vol 64 diff is 400 event 1 position -100
+2023-03-15 22:09:43.400783 [INFO   ] [AUTO] Hedge Buying Order536 for price 151700 vol 48 diff is 300 event 2 position -100
+2023-03-15 22:09:43.650905 [INFO   ] [AUTO] Hedge Buying Order537 for price 151800 vol 32 diff is 200 event 3 position -100
+2023-03-15 22:09:43.860485 [INFO   ] [AUTO] Hedge Buying Order538 for price 151900 vol 16 diff is 100 event 4 position -100
+2023-03-15 22:09:43.860515 [INFO   ] [AUTO] Paying the fee
+2023-03-15 22:09:43.860841 [INFO   ] [AUTO] order 538 filled for 16 lots at $151900 cents 4 events
+2023-03-15 22:09:43.860852 [INFO   ] [AUTO] Hedging 16 SELLLL
+2023-03-15 22:09:43.860865 [INFO   ] [AUTO] Current Position is -84 to buy 144 to sell 0
+2023-03-15 22:09:45.409183 [INFO   ] [AUTO] Hedge Buying Order540 for price 152000 vol 64 diff is 400 event 4 position -84
+2023-03-15 22:09:45.628378 [INFO   ] [AUTO] Hedge Buying Order541 for price 152100 vol 32 diff is 200 event 5 position -84
+2023-03-15 22:09:47.204664 [INFO   ] [AUTO] Hedge Selling Order542 for price 152300 vol 16 diff is 100 event 2 position -84
+2023-03-15 22:09:47.705017 [INFO   ] [AUTO] Hedge Buying Order543 for price 152000 vol 32 diff is 200 event 4 position -84
+2023-03-15 22:09:47.896569 [INFO   ] [AUTO] order 543 filled for 21 lots at $152000 cents 4 events
+2023-03-15 22:09:47.896597 [INFO   ] [AUTO] Hedging 21 SELLLL
+2023-03-15 22:09:47.896623 [INFO   ] [AUTO] Current Position is -63 to buy 11 to sell 16
+2023-03-15 22:09:48.450807 [INFO   ] [AUTO] Hedge Buying Order545 for price 152100 vol 16 diff is 100 event 3 position -63
+2023-03-15 22:09:49.163652 [INFO   ] [AUTO] Hedge Selling Order546 for price 152700 vol 21 diff is 500 event 3 position -63
+2023-03-15 22:09:49.295477 [INFO   ] [AUTO] order 545 filled for 16 lots at $152100 cents 4 events
+2023-03-15 22:09:49.295506 [INFO   ] [AUTO] Hedging 16 SELLLL
+2023-03-15 22:09:49.295531 [INFO   ] [AUTO] Current Position is -47 to buy 11 to sell 21
+2023-03-15 22:09:49.410281 [INFO   ] [AUTO] Hedge Selling Order548 for price 152400 vol 16 diff is 100 event 6 position -47
+2023-03-15 22:09:49.586956 [INFO   ] [AUTO] order 548 filled for 16 lots at $152400 cents 6 events
+2023-03-15 22:09:49.586984 [INFO   ] [AUTO] Hedging -16 BUYYYY
+2023-03-15 22:09:49.587007 [INFO   ] [AUTO] Current Position is -63 to buy 11 to sell 21
+2023-03-15 22:09:49.587021 [INFO   ] [AUTO] order 546 filled for 12 lots at $152700 cents 6 events
+2023-03-15 22:09:49.587027 [INFO   ] [AUTO] Hedging -12 BUYYYY
+2023-03-15 22:09:49.587039 [INFO   ] [AUTO] Current Position is -75 to buy 11 to sell 9
+2023-03-15 22:09:49.679469 [INFO   ] [AUTO] Hedge Selling Order551 for price 152400 vol 16 diff is 100 event 8 position -75
+2023-03-15 22:09:49.860072 [INFO   ] [AUTO] Hedge Buying Order552 for price 151900 vol 32 diff is 200 event 8 position -75
+2023-03-15 22:09:50.135869 [INFO   ] [AUTO] Hedge Buying Order553 for price 152000 vol 16 diff is 100 event 9 position -75
+2023-03-15 22:09:50.414216 [INFO   ] [AUTO] Hedge Buying Order554 for price 152100 vol 16 diff is 100 event 7 position -75
+2023-03-15 22:09:50.902678 [INFO   ] [AUTO] order 554 filled for 8 lots at $152100 cents 7 events
+2023-03-15 22:09:50.902707 [INFO   ] [AUTO] Hedging 8 SELLLL
+2023-03-15 22:09:50.902759 [INFO   ] [AUTO] Current Position is -67 to buy 56 to sell 25
+2023-03-15 22:09:51.504943 [INFO   ] [AUTO] order 554 filled for 8 lots at $152100 cents 5 events
+2023-03-15 22:09:51.504973 [INFO   ] [AUTO] Hedging 8 SELLLL
+2023-03-15 22:09:51.504998 [INFO   ] [AUTO] Current Position is -59 to buy 48 to sell 25
+2023-03-15 22:09:51.505026 [INFO   ] [AUTO] order 553 filled for 16 lots at $152000 cents 5 events
+2023-03-15 22:09:51.505032 [INFO   ] [AUTO] Hedging 16 SELLLL
+2023-03-15 22:09:51.505043 [INFO   ] [AUTO] Current Position is -43 to buy 32 to sell 25
+2023-03-15 22:09:51.617721 [INFO   ] [AUTO] Hedge Buying Order558 for price 151900 vol 48 diff is 300 event 7 position -43
+2023-03-15 22:09:51.859078 [INFO   ] [AUTO] Hedge Buying Order559 for price 152000 vol 64 diff is 400 event 7 position -43
+2023-03-15 22:09:52.203900 [INFO   ] [AUTO] Hedge Buying Order560 for price 152100 vol 31 diff is 200 event 7 position -43
+2023-03-15 22:09:52.748302 [INFO   ] [AUTO] order 560 filled for 7 lots at $152100 cents 3 events
+2023-03-15 22:09:52.748330 [INFO   ] [AUTO] Hedging 7 SELLLL
+2023-03-15 22:09:52.748374 [INFO   ] [AUTO] Current Position is -36 to buy 136 to sell 0
+2023-03-15 22:09:53.664764 [INFO   ] [AUTO] Hedge Buying Order562 for price 152300 vol 16 diff is 100 event 4 position -36
+2023-03-15 22:09:53.901579 [INFO   ] [AUTO] Hedge Selling Order563 for price 152800 vol 32 diff is 200 event 5 position -36
+2023-03-15 22:09:54.136507 [INFO   ] [AUTO] Hedge Selling Order564 for price 152700 vol 32 diff is 200 event 6 position -36
+2023-03-15 22:09:54.298287 [INFO   ] [AUTO] order 564 filled for 32 lots at $152700 cents 6 events
+2023-03-15 22:09:54.298381 [INFO   ] [AUTO] Hedging -32 BUYYYY
+2023-03-15 22:09:54.298430 [INFO   ] [AUTO] Current Position is -68 to buy 40 to sell 32
+2023-03-15 22:09:54.298455 [INFO   ] [AUTO] order 563 filled for 15 lots at $152800 cents 6 events
+2023-03-15 22:09:54.298502 [INFO   ] [AUTO] Hedging -15 BUYYYY
+2023-03-15 22:09:54.298529 [INFO   ] [AUTO] Current Position is -83 to buy 40 to sell 17
+2023-03-15 22:09:54.683992 [INFO   ] [AUTO] Hedge Buying Order567 for price 152400 vol 16 diff is 100 event 7 position -83
+2023-03-15 22:09:54.858279 [INFO   ] [AUTO] Hedge Buying Order568 for price 152500 vol 16 diff is 100 event 6 position -83
+2023-03-15 22:09:55.936921 [INFO   ] [AUTO] Hedge Selling Order569 for price 152800 vol 16 diff is 100 event 3 position -83
+2023-03-15 22:09:56.289007 [INFO   ] [AUTO] order 568 filled for 16 lots at $152500 cents 4 events
+2023-03-15 22:09:56.289073 [INFO   ] [AUTO] Hedging 16 SELLLL
+2023-03-15 22:09:56.289115 [INFO   ] [AUTO] Current Position is -67 to buy 32 to sell 16
+2023-03-15 22:09:56.375931 [INFO   ] [AUTO] Hedge Buying Order571 for price 152300 vol 16 diff is 100 event 5 position -67
+2023-03-15 22:09:56.375969 [INFO   ] [AUTO] Hedge Selling Order572 for price 152700 vol 16 diff is 100 event 6 position -67
+2023-03-15 22:09:56.622714 [INFO   ] [AUTO] Hedge Selling Order573 for price 152600 vol 1 diff is 100 event 6 position -67
+2023-03-15 22:09:57.247410 [INFO   ] [AUTO] order 571 filled for 16 lots at $152300 cents 5 events
+2023-03-15 22:09:57.247444 [INFO   ] [AUTO] Hedging 16 SELLLL
+2023-03-15 22:09:57.247472 [INFO   ] [AUTO] Current Position is -51 to buy 0 to sell 33
+2023-03-15 22:09:57.446260 [INFO   ] [AUTO] Hedge Buying Order575 for price 152000 vol 48 diff is 300 event 3 position -51
+2023-03-15 22:09:57.653912 [INFO   ] [AUTO] Hedge Buying Order576 for price 152100 vol 32 diff is 200 event 5 position -51
+2023-03-15 22:09:57.889619 [INFO   ] [AUTO] Hedge Buying Order577 for price 152200 vol 16 diff is 100 event 5 position -51
+2023-03-15 22:09:57.889653 [INFO   ] [AUTO] Hedge Selling Order578 for price 152500 vol 16 diff is 100 event 6 position -51
+2023-03-15 22:09:58.160643 [INFO   ] [AUTO] Hedge Selling Order579 for price 152400 vol 16 diff is 100 event 8 position -51
+2023-03-15 22:09:58.354181 [INFO   ] [AUTO] order 579 filled for 16 lots at $152400 cents 9 events
+2023-03-15 22:09:58.354221 [INFO   ] [AUTO] Hedging -16 BUYYYY
+2023-03-15 22:09:58.354242 [INFO   ] [AUTO] Current Position is -67 to buy 96 to sell 17
+2023-03-15 22:09:58.354256 [INFO   ] [AUTO] order 578 filled for 16 lots at $152500 cents 9 events
+2023-03-15 22:09:58.354260 [INFO   ] [AUTO] Hedging -16 BUYYYY
+2023-03-15 22:09:58.354272 [INFO   ] [AUTO] Current Position is -83 to buy 96 to sell 1
+2023-03-15 22:09:58.426860 [INFO   ] [AUTO] Hedge Selling Order582 for price 152700 vol 16 diff is 400 event 11 position -83
+2023-03-15 22:09:58.679913 [INFO   ] [AUTO] Hedge Selling Order583 for price 152600 vol 1 diff is 400 event 10 position -83
+2023-03-15 22:09:59.346454 [INFO   ] [AUTO] order 577 filled for 16 lots at $152200 cents 8 events
+2023-03-15 22:09:59.346483 [INFO   ] [AUTO] Hedging 16 SELLLL
+2023-03-15 22:09:59.346510 [INFO   ] [AUTO] Current Position is -67 to buy 80 to sell 17
+2023-03-15 22:09:59.395023 [INFO   ] [AUTO] Hedge Buying Order585 for price 152000 vol 32 diff is 200 event 8 position -67
+2023-03-15 22:09:59.605705 [INFO   ] [AUTO] Hedge Buying Order586 for price 152100 vol 16 diff is 200 event 6 position -67
+2023-03-15 22:09:59.605736 [INFO   ] [AUTO] Hedge Selling Order587 for price 152500 vol 16 diff is 200 event 7 position -67
+2023-03-15 22:10:00.053365 [INFO   ] [AUTO] order 587 filled for 16 lots at $152500 cents 7 events
+2023-03-15 22:10:00.053398 [INFO   ] [AUTO] Hedging -16 BUYYYY
+2023-03-15 22:10:00.053425 [INFO   ] [AUTO] Current Position is -83 to buy 48 to sell 17
+2023-03-15 22:10:00.053437 [INFO   ] [AUTO] order 583 filled for 1 lots at $152600 cents 7 events
+2023-03-15 22:10:00.053440 [INFO   ] [AUTO] Hedging -1 BUYYYY
+2023-03-15 22:10:00.053452 [INFO   ] [AUTO] Current Position is -84 to buy 48 to sell 16
+2023-03-15 22:10:00.439600 [INFO   ] [AUTO] Hedge Selling Order590 for price 152700 vol 16 diff is 300 event 7 position -84
+2023-03-15 22:10:02.407705 [INFO   ] [AUTO] Hedge Selling Order591 for price 152400 vol 16 diff is 200 event 2 position -84
+2023-03-15 22:10:03.644439 [INFO   ] [AUTO] Hedge Buying Order592 for price 151900 vol 48 diff is 300 event 1 position -84
+2023-03-15 22:10:03.702726 [INFO   ] [AUTO] order 591 filled for 16 lots at $152400 cents 1 events
+2023-03-15 22:10:03.702748 [INFO   ] [AUTO] Hedging -16 BUYYYY
+2023-03-15 22:10:03.702768 [INFO   ] [AUTO] Current Position is -100 to buy 48 to sell 0
+2023-03-15 22:10:06.676234 [INFO   ] [AUTO] Hedge Buying Order594 for price 151900 vol 48 diff is 300 event 1 position -100
+2023-03-15 22:10:06.676265 [INFO   ] [AUTO] Paying the fee
+2023-03-15 22:10:06.677185 [INFO   ] [AUTO] order 594 filled for 17 lots at $151900 cents 1 events
+2023-03-15 22:10:06.677191 [INFO   ] [AUTO] Hedging 17 SELLLL
+2023-03-15 22:10:06.677205 [INFO   ] [AUTO] Current Position is -83 to buy 31 to sell 0
+2023-03-15 22:10:06.917174 [INFO   ] [AUTO] Hedge Selling Order596 for price 152500 vol 17 diff is 300 event 3 position -83
+2023-03-15 22:10:08.869894 [INFO   ] [AUTO] Hedge Selling Order597 for price 151700 vol 17 diff is 500 event 2 position -83
+2023-03-15 22:10:10.913261 [INFO   ] [AUTO] Hedge Selling Order598 for price 151700 vol 17 diff is 400 event 2 position -83
+2023-03-15 22:10:12.894412 [INFO   ] [AUTO] Hedge Selling Order599 for price 151500 vol 17 diff is 400 event 2 position -83
+2023-03-15 22:10:14.944581 [INFO   ] [AUTO] Hedge Selling Order600 for price 151400 vol 17 diff is 400 event 2 position -83
+2023-03-15 22:10:16.874742 [INFO   ] [AUTO] Hedge Selling Order601 for price 151400 vol 17 diff is 400 event 2 position -83
+2023-03-15 22:10:17.641071 [INFO   ] [AUTO] order 601 filled for 8 lots at $151400 cents 1 events
+2023-03-15 22:10:17.641107 [INFO   ] [AUTO] Hedging -8 BUYYYY
+2023-03-15 22:10:17.641135 [INFO   ] [AUTO] Current Position is -91 to buy 0 to sell 9
+2023-03-15 22:10:18.921331 [INFO   ] [AUTO] Hedge Selling Order603 for price 151100 vol 9 diff is 700 event 2 position -91
+2023-03-15 22:10:18.921364 [INFO   ] [AUTO] Paying the fee
+2023-03-15 22:10:18.926298 [INFO   ] [AUTO] order 603 filled for 9 lots at $151100 cents 2 events
+2023-03-15 22:10:18.926312 [INFO   ] [AUTO] Hedging -9 BUYYYY
+2023-03-15 22:10:18.926329 [INFO   ] [AUTO] Current Position is -100 to buy 0 to sell 0
+2023-03-15 22:10:51.913968 [INFO   ] [AUTO] Hedge Buying Order605 for price 149500 vol 16 diff is 100 event 1 position -100
+2023-03-15 22:11:16.667611 [INFO   ] [AUTO] Hedge Buying Order606 for price 149200 vol 16 diff is 100 event 1 position -100
+2023-03-15 22:11:17.446148 [INFO   ] [AUTO] order 606 filled for 16 lots at $149200 cents 1 events
+2023-03-15 22:11:17.446183 [INFO   ] [AUTO] Hedging 16 SELLLL
+2023-03-15 22:11:17.446213 [INFO   ] [AUTO] Current Position is -84 to buy 0 to sell 0
+2023-03-15 22:11:18.146953 [INFO   ] [AUTO] Hedge Buying Order608 for price 149200 vol 16 diff is 100 event 2 position -84
+2023-03-15 22:11:18.697653 [INFO   ] [AUTO] order 608 filled for 16 lots at $149200 cents 1 events
+2023-03-15 22:11:18.697713 [INFO   ] [AUTO] Hedging 16 SELLLL
+2023-03-15 22:11:18.697761 [INFO   ] [AUTO] Current Position is -68 to buy 0 to sell 0
+2023-03-15 22:11:18.925690 [INFO   ] [AUTO] Hedge Selling Order610 for price 149200 vol 16 diff is 100 event 3 position -68
+2023-03-15 22:11:19.695363 [INFO   ] [AUTO] order 610 filled for 7 lots at $149200 cents 2 events
+2023-03-15 22:11:19.695424 [INFO   ] [AUTO] Hedging -7 BUYYYY
+2023-03-15 22:11:19.695465 [INFO   ] [AUTO] Current Position is -75 to buy 0 to sell 9
+2023-03-15 22:11:21.127975 [INFO   ] [AUTO] Hedge Selling Order612 for price 149200 vol 16 diff is 100 event 2 position -75
+2023-03-15 22:11:22.110618 [INFO   ] [AUTO] Hedge Buying Order613 for price 149100 vol 16 diff is 100 event 2 position -75
+2023-03-15 22:11:22.643379 [INFO   ] [AUTO] order 613 filled for 12 lots at $149100 cents 2 events
+2023-03-15 22:11:22.643438 [INFO   ] [AUTO] Hedging 12 SELLLL
+2023-03-15 22:11:22.643467 [INFO   ] [AUTO] Current Position is -63 to buy 4 to sell 16
+2023-03-15 22:11:23.195378 [INFO   ] [AUTO] Hedge Selling Order615 for price 149600 vol 21 diff is 200 event 3 position -63
+2023-03-15 22:11:23.891862 [INFO   ] [AUTO] Hedge Selling Order616 for price 149500 vol 16 diff is 100 event 3 position -63
+2023-03-15 22:11:24.453795 [INFO   ] [AUTO] order 616 filled for 16 lots at $149500 cents 2 events
+2023-03-15 22:11:24.453856 [INFO   ] [AUTO] Hedging -16 BUYYYY
+2023-03-15 22:11:24.453898 [INFO   ] [AUTO] Current Position is -79 to buy 4 to sell 21
+2023-03-15 22:11:24.453923 [INFO   ] [AUTO] order 615 filled for 21 lots at $149600 cents 3 events
+2023-03-15 22:11:24.453939 [INFO   ] [AUTO] Hedging -21 BUYYYY
+2023-03-15 22:11:24.453965 [INFO   ] [AUTO] Current Position is -100 to buy 4 to sell 0
+2023-03-15 22:11:25.645484 [INFO   ] [AUTO] Hedge Buying Order619 for price 149300 vol 16 diff is 100 event 1 position -100
+2023-03-15 22:11:26.193695 [INFO   ] [AUTO] order 619 filled for 16 lots at $149300 cents 1 events
+2023-03-15 22:11:26.193728 [INFO   ] [AUTO] Hedging 16 SELLLL
+2023-03-15 22:11:26.193751 [INFO   ] [AUTO] Current Position is -84 to buy 0 to sell 0
+2023-03-15 22:11:26.439435 [INFO   ] [AUTO] Hedge Buying Order621 for price 149000 vol 48 diff is 300 event 3 position -84
+2023-03-15 22:11:26.687245 [INFO   ] [AUTO] Hedge Buying Order622 for price 149100 vol 16 diff is 100 event 4 position -84
+2023-03-15 22:11:26.863620 [INFO   ] [AUTO] Hedge Buying Order623 for price 149200 vol 16 diff is 100 event 4 position -84
+2023-03-15 22:11:27.676268 [INFO   ] [AUTO] Hedge Buying Order624 for price 149300 vol 16 diff is 100 event 3 position -84
+2023-03-15 22:11:27.676296 [INFO   ] [AUTO] Paying the fee
+2023-03-15 22:11:27.687453 [INFO   ] [AUTO] order 624 filled for 9 lots at $149300 cents 3 events
+2023-03-15 22:11:27.687467 [INFO   ] [AUTO] Hedging 9 SELLLL
+2023-03-15 22:11:27.687482 [INFO   ] [AUTO] Current Position is -75 to buy 87 to sell 0
+2023-03-15 22:11:27.948994 [INFO   ] [AUTO] Hedge Buying Order626 for price 149300 vol 48 diff is 300 event 3 position -75
+2023-03-15 22:11:28.197662 [INFO   ] [AUTO] Hedge Buying Order627 for price 149400 vol 32 diff is 200 event 5 position -75
+2023-03-15 22:11:28.389633 [INFO   ] [AUTO] order 627 filled for 32 lots at $149400 cents 6 events
+2023-03-15 22:11:28.389667 [INFO   ] [AUTO] Hedging 32 SELLLL
+2023-03-15 22:11:28.389691 [INFO   ] [AUTO] Current Position is -43 to buy 80 to sell 0
+2023-03-15 22:11:28.389724 [INFO   ] [AUTO] order 626 filled for 14 lots at $149300 cents 7 events
+2023-03-15 22:11:28.389730 [INFO   ] [AUTO] Hedging 14 SELLLL
+2023-03-15 22:11:28.389739 [INFO   ] [AUTO] Current Position is -29 to buy 66 to sell 0
+2023-03-15 22:11:28.389823 [INFO   ] [AUTO] Hedge Buying Order630 for price 149400 vol 32 diff is 200 event 9 position -29
+2023-03-15 22:11:28.649647 [INFO   ] [AUTO] Hedge Buying Order631 for price 149500 vol 16 diff is 100 event 11 position -29
+2023-03-15 22:11:30.387797 [INFO   ] [AUTO] Hedge Buying Order632 for price 149100 vol 47 diff is 300 event 4 position -29
+2023-03-15 22:11:30.693080 [INFO   ] [AUTO] Hedge Buying Order633 for price 149200 vol 64 diff is 400 event 4 position -29
+2023-03-15 22:11:30.953293 [INFO   ] [AUTO] Hedge Buying Order634 for price 149300 vol 16 diff is 100 event 4 position -29
+2023-03-15 22:11:31.167097 [INFO   ] [AUTO] Hedge Buying Order635 for price 149400 vol 2 diff is 100 event 5 position -29
+2023-03-15 22:11:32.384319 [INFO   ] [AUTO] Hedge Buying Order636 for price 149500 vol 47 diff is 400 event 3 position -29
+2023-03-15 22:11:32.660856 [INFO   ] [AUTO] Hedge Buying Order637 for price 149600 vol 16 diff is 100 event 5 position -29
+2023-03-15 22:11:33.200044 [INFO   ] [AUTO] Hedge Buying Order638 for price 149700 vol 32 diff is 200 event 6 position -29
+2023-03-15 22:11:34.373074 [INFO   ] [AUTO] Hedge Buying Order639 for price 149800 vol 16 diff is 100 event 3 position -29
+2023-03-15 22:11:34.633291 [INFO   ] [AUTO] Hedge Buying Order640 for price 149900 vol 16 diff is 100 event 4 position -29
+2023-03-15 22:11:34.633489 [INFO   ] [AUTO] Paying the fee
+2023-03-15 22:11:34.635181 [INFO   ] [AUTO] order 640 filled for 16 lots at $149900 cents 5 events
+2023-03-15 22:11:34.635203 [INFO   ] [AUTO] Hedging 16 SELLLL
+2023-03-15 22:11:34.635231 [INFO   ] [AUTO] Current Position is -13 to buy 48 to sell 0
+2023-03-15 22:11:34.943826 [INFO   ] [AUTO] Hedge Buying Order642 for price 149900 vol 16 diff is 100 event 6 position -13
+2023-03-15 22:11:34.943884 [INFO   ] [AUTO] Paying the fee
+2023-03-15 22:11:34.944305 [INFO   ] [AUTO] order 642 filled for 16 lots at $149900 cents 6 events
+2023-03-15 22:11:34.944324 [INFO   ] [AUTO] Hedging 16 SELLLL
+2023-03-15 22:11:34.944353 [INFO   ] [AUTO] Current Position is 3 to buy 16 to sell 0
+2023-03-15 22:11:35.160035 [INFO   ] [AUTO] Hedge Buying Order644 for price 149900 vol 32 diff is 200 event 8 position 3
+2023-03-15 22:11:35.160093 [INFO   ] [AUTO] Paying the fee
+2023-03-15 22:11:35.160397 [INFO   ] [AUTO] order 644 filled for 32 lots at $149900 cents 8 events
+2023-03-15 22:11:35.160416 [INFO   ] [AUTO] Hedging 32 SELLLL
+2023-03-15 22:11:35.160442 [INFO   ] [AUTO] Current Position is 35 to buy 16 to sell 0
+2023-03-15 22:11:35.447370 [INFO   ] [AUTO] Hedge Buying Order646 for price 149900 vol 16 diff is 100 event 8 position 35
+2023-03-15 22:11:35.447414 [INFO   ] [AUTO] Paying the fee
+2023-03-15 22:11:35.479440 [INFO   ] [AUTO] order 646 filled for 16 lots at $149900 cents 8 events
+2023-03-15 22:11:35.479479 [INFO   ] [AUTO] Hedging 16 SELLLL
+2023-03-15 22:11:35.479514 [INFO   ] [AUTO] Current Position is 51 to buy 16 to sell 0
+2023-03-15 22:11:35.629648 [INFO   ] [AUTO] Hedge Buying Order648 for price 149900 vol 32 diff is 200 event 10 position 51
+2023-03-15 22:11:35.629710 [INFO   ] [AUTO] Paying the fee
+2023-03-15 22:11:35.632708 [INFO   ] [AUTO] order 648 filled for 32 lots at $149900 cents 10 events
+2023-03-15 22:11:35.632728 [INFO   ] [AUTO] Hedging 32 SELLLL
+2023-03-15 22:11:35.632755 [INFO   ] [AUTO] Current Position is 83 to buy 16 to sell 0
+2023-03-15 22:11:35.972328 [INFO   ] [AUTO] order 639 filled for 16 lots at $149800 cents 11 events
+2023-03-15 22:11:35.972392 [INFO   ] [AUTO] Hedging 16 SELLLL
+2023-03-15 22:11:35.972451 [INFO   ] [AUTO] Current Position is 99 to buy 0 to sell 0
+2023-03-15 22:11:35.972874 [INFO   ] [AUTO] Hedge Buying Order651 for price 149600 vol 1 diff is 400 event 10 position 99
+2023-03-15 22:11:37.888324 [INFO   ] [AUTO] Hedge Buying Order652 for price 150500 vol 1 diff is 300 event 2 position 99
+2023-03-15 22:11:37.888357 [INFO   ] [AUTO] Paying the fee
+2023-03-15 22:11:37.892196 [INFO   ] [AUTO] order 652 filled for 1 lots at $150500 cents 2 events
+2023-03-15 22:11:37.892210 [INFO   ] [AUTO] Hedging 1 SELLLL
+2023-03-15 22:11:37.892231 [INFO   ] [AUTO] Current Position is 100 to buy 0 to sell 0
+2023-03-15 22:11:43.127252 [INFO   ] [AUTO] Hedge Selling Order654 for price 150700 vol 32 diff is 200 event 1 position 100
+2023-03-15 22:11:43.600145 [INFO   ] [AUTO] order 654 filled for 22 lots at $150700 cents 1 events
+2023-03-15 22:11:43.600177 [INFO   ] [AUTO] Hedging -22 BUYYYY
+2023-03-15 22:11:43.600195 [INFO   ] [AUTO] Current Position is 78 to buy 0 to sell 10
+2023-03-15 22:11:43.676469 [INFO   ] [AUTO] Hedge Buying Order656 for price 150400 vol 16 diff is 100 event 3 position 78
+2023-03-15 22:11:43.942698 [INFO   ] [AUTO] Hedge Selling Order657 for price 150600 vol 16 diff is 100 event 4 position 78
+2023-03-15 22:11:44.436704 [INFO   ] [AUTO] Hedge Selling Order658 for price 150500 vol 16 diff is 100 event 4 position 78
+2023-03-15 22:11:44.700024 [INFO   ] [AUTO] Hedge Selling Order659 for price 150400 vol 16 diff is 100 event 5 position 78
+2023-03-15 22:11:44.700051 [INFO   ] [AUTO] Paying the fee
+2023-03-15 22:11:44.942525 [INFO   ] [AUTO] Hedge Selling Order660 for price 150400 vol 16 diff is 100 event 6 position 78
+2023-03-15 22:11:45.195902 [INFO   ] [AUTO] Hedge Buying Order661 for price 150000 vol 6 diff is 100 event 6 position 78
+2023-03-15 22:11:45.195939 [INFO   ] [AUTO] Hedge Selling Order662 for price 150300 vol 6 diff is 100 event 7 position 78
+2023-03-15 22:11:45.454533 [INFO   ] [AUTO] Hedge Buying Order663 for price 150100 vol 16 diff is 100 event 8 position 78
+2023-03-15 22:11:46.118440 [INFO   ] [AUTO] Hedge Selling Order664 for price 150200 vol 48 diff is 300 event 6 position 78
+2023-03-15 22:11:46.377039 [INFO   ] [AUTO] Hedge Selling Order665 for price 150100 vol 48 diff is 300 event 6 position 78
+2023-03-15 22:11:46.377071 [INFO   ] [AUTO] Paying the fee
+2023-03-15 22:11:46.682655 [INFO   ] [AUTO] Hedge Selling Order666 for price 150100 vol 32 diff is 200 event 6 position 78
+2023-03-15 22:11:46.892437 [INFO   ] [AUTO] Hedge Selling Order667 for price 150000 vol 16 diff is 100 event 9 position 78
+2023-03-15 22:11:48.158230 [INFO   ] [AUTO] Hedge Buying Order668 for price 149600 vol 16 diff is 100 event 2 position 78
+2023-03-15 22:11:48.158260 [INFO   ] [AUTO] Hedge Selling Order669 for price 149900 vol 16 diff is 100 event 3 position 78
+2023-03-15 22:11:48.366054 [INFO   ] [AUTO] Hedge Buying Order670 for price 149700 vol 6 diff is 100 event 5 position 78
+2023-03-15 22:11:50.704530 [INFO   ] [AUTO] Hedge Buying Order671 for price 149800 vol 16 diff is 100 event 4 position 78
+2023-03-15 22:11:50.879545 [INFO   ] [AUTO] Hedge Selling Order672 for price 150300 vol 32 diff is 200 event 3 position 78
+2023-03-15 22:11:51.176257 [INFO   ] [AUTO] Hedge Selling Order673 for price 150200 vol 16 diff is 100 event 3 position 78
+2023-03-15 22:11:51.368161 [INFO   ] [AUTO] Hedge Selling Order674 for price 150100 vol 32 diff is 200 event 4 position 78
+2023-03-15 22:11:51.699116 [INFO   ] [AUTO] Hedge Selling Order675 for price 150000 vol 16 diff is 100 event 5 position 78
+2023-03-15 22:11:51.738458 [INFO   ] [AUTO] order 675 filled for 16 lots at $150000 cents 5 events
+2023-03-15 22:11:51.738486 [INFO   ] [AUTO] Hedging -16 BUYYYY
+2023-03-15 22:11:51.738516 [INFO   ] [AUTO] Current Position is 62 to buy 16 to sell 80
+2023-03-15 22:11:51.738546 [INFO   ] [AUTO] order 674 filled for 32 lots at $150100 cents 6 events
+2023-03-15 22:11:51.738552 [INFO   ] [AUTO] Hedging -32 BUYYYY
+2023-03-15 22:11:51.738565 [INFO   ] [AUTO] Current Position is 30 to buy 16 to sell 48
+2023-03-15 22:11:51.738621 [INFO   ] [AUTO] order 673 filled for 16 lots at $150200 cents 7 events
+2023-03-15 22:11:51.738626 [INFO   ] [AUTO] Hedging -16 BUYYYY
+2023-03-15 22:11:51.738636 [INFO   ] [AUTO] Current Position is 14 to buy 16 to sell 32
+2023-03-15 22:11:51.738687 [INFO   ] [AUTO] order 672 filled for 32 lots at $150300 cents 8 events
+2023-03-15 22:11:51.738692 [INFO   ] [AUTO] Hedging -32 BUYYYY
+2023-03-15 22:11:51.738702 [INFO   ] [AUTO] Current Position is -18 to buy 16 to sell 0
+2023-03-15 22:11:51.944314 [INFO   ] [AUTO] Hedge Selling Order680 for price 150300 vol 64 diff is 400 event 8 position -18
+2023-03-15 22:11:52.118122 [INFO   ] [AUTO] Hedge Selling Order681 for price 150200 vol 18 diff is 300 event 9 position -18
+2023-03-15 22:11:53.160462 [INFO   ] [AUTO] Hedge Buying Order682 for price 149600 vol 32 diff is 200 event 3 position -18
+2023-03-15 22:11:53.380347 [INFO   ] [AUTO] Hedge Buying Order683 for price 149700 vol 80 diff is 500 event 2 position -18
+2023-03-15 22:11:53.551771 [INFO   ] [AUTO] order 683 filled for 9 lots at $149700 cents 3 events
+2023-03-15 22:11:53.551793 [INFO   ] [AUTO] Hedging 9 SELLLL
+2023-03-15 22:11:53.551818 [INFO   ] [AUTO] Current Position is -9 to buy 103 to sell 82
+2023-03-15 22:11:53.651134 [INFO   ] [AUTO] Hedge Buying Order685 for price 149800 vol 6 diff is 400 event 5 position -9
+2023-03-15 22:11:53.849427 [INFO   ] [AUTO] order 685 filled for 4 lots at $149800 cents 6 events
+2023-03-15 22:11:53.849463 [INFO   ] [AUTO] Hedging 4 SELLLL
+2023-03-15 22:11:53.849486 [INFO   ] [AUTO] Current Position is -5 to buy 105 to sell 82
+2023-03-15 22:11:54.445854 [INFO   ] [AUTO] order 685 filled for 2 lots at $149800 cents 6 events
+2023-03-15 22:11:54.445885 [INFO   ] [AUTO] Hedging 2 SELLLL
+2023-03-15 22:11:54.445915 [INFO   ] [AUTO] Current Position is -3 to buy 103 to sell 0
+2023-03-15 22:11:54.446023 [INFO   ] [AUTO] order 683 filled for 6 lots at $149700 cents 5 events
+2023-03-15 22:11:54.446028 [INFO   ] [AUTO] Hedging 6 SELLLL
+2023-03-15 22:11:54.446043 [INFO   ] [AUTO] Current Position is 3 to buy 97 to sell 0
+2023-03-15 22:11:54.680505 [INFO   ] [AUTO] Hedge Selling Order689 for price 150300 vol 16 diff is 100 event 6 position 3
+2023-03-15 22:11:55.128335 [INFO   ] [AUTO] Hedge Buying Order690 for price 149700 vol 32 diff is 200 event 6 position 3
+2023-03-15 22:11:55.434376 [INFO   ] [AUTO] Hedge Buying Order691 for price 149800 vol 16 diff is 100 event 7 position 3
+2023-03-15 22:11:55.434405 [INFO   ] [AUTO] Hedge Selling Order692 for price 150200 vol 16 diff is 100 event 8 position 3
+2023-03-15 22:11:55.697884 [INFO   ] [AUTO] order 692 filled for 10 lots at $150200 cents 8 events
+2023-03-15 22:11:55.697921 [INFO   ] [AUTO] Hedging -10 BUYYYY
+2023-03-15 22:11:55.697945 [INFO   ] [AUTO] Current Position is -7 to buy 48 to sell 22
+2023-03-15 22:11:55.700215 [INFO   ] [AUTO] Hedge Selling Order694 for price 150100 vol 16 diff is 100 event 8 position -7
+2023-03-15 22:11:55.700425 [INFO   ] [AUTO] order 691 filled for 16 lots at $149800 cents 8 events
+2023-03-15 22:11:55.700428 [INFO   ] [AUTO] Hedging 16 SELLLL
+2023-03-15 22:11:55.700439 [INFO   ] [AUTO] Current Position is 9 to buy 32 to sell 38
+2023-03-15 22:11:55.700509 [INFO   ] [AUTO] order 690 filled for 32 lots at $149700 cents 9 events
+2023-03-15 22:11:55.700511 [INFO   ] [AUTO] Hedging 32 SELLLL
+2023-03-15 22:11:55.700522 [INFO   ] [AUTO] Current Position is 41 to buy 0 to sell 38
+2023-03-15 22:11:55.954809 [INFO   ] [AUTO] Hedge Buying Order697 for price 149600 vol 48 diff is 300 event 9 position 41
+2023-03-15 22:11:56.110679 [INFO   ] [AUTO] Hedge Buying Order698 for price 149700 vol 11 diff is 200 event 9 position 41
+2023-03-15 22:11:56.911907 [INFO   ] [AUTO] order 694 filled for 16 lots at $150100 cents 4 events
+2023-03-15 22:11:56.911943 [INFO   ] [AUTO] Hedging -16 BUYYYY
+2023-03-15 22:11:56.912060 [INFO   ] [AUTO] Current Position is 25 to buy 59 to sell 22
+2023-03-15 22:11:57.118912 [INFO   ] [AUTO] Hedge Buying Order700 for price 150500 vol 16 diff is 500 event 5 position 25
+2023-03-15 22:11:57.897115 [INFO   ] [AUTO] Hedge Buying Order701 for price 150600 vol 16 diff is 100 event 6 position 25
+2023-03-15 22:11:57.897147 [INFO   ] [AUTO] Paying the fee
+2023-03-15 22:11:57.899911 [INFO   ] [AUTO] order 701 filled for 16 lots at $150600 cents 6 events
+2023-03-15 22:11:57.899922 [INFO   ] [AUTO] Hedging 16 SELLLL
+2023-03-15 22:11:57.899934 [INFO   ] [AUTO] Current Position is 41 to buy 16 to sell 22
+2023-03-15 22:11:58.104290 [INFO   ] [AUTO] order 700 filled for 16 lots at $150500 cents 7 events
+2023-03-15 22:11:58.104321 [INFO   ] [AUTO] Hedging 16 SELLLL
+2023-03-15 22:11:58.104348 [INFO   ] [AUTO] Current Position is 57 to buy 0 to sell 22
+2023-03-15 22:11:58.107096 [INFO   ] [AUTO] Hedge Buying Order704 for price 150500 vol 32 diff is 200 event 7 position 57
+2023-03-15 22:11:58.351060 [INFO   ] [AUTO] order 704 filled for 32 lots at $150500 cents 7 events
+2023-03-15 22:11:58.351093 [INFO   ] [AUTO] Hedging 32 SELLLL
+2023-03-15 22:11:58.351119 [INFO   ] [AUTO] Current Position is 89 to buy 0 to sell 22
+2023-03-15 22:11:58.379121 [INFO   ] [AUTO] Hedge Buying Order706 for price 150300 vol 11 diff is 400 event 8 position 89
+2023-03-15 22:12:00.433416 [INFO   ] [AUTO] Hedge Buying Order707 for price 150200 vol 11 diff is 400 event 2 position 89
+2023-03-15 22:12:02.389442 [INFO   ] [AUTO] Hedge Buying Order708 for price 150700 vol 11 diff is 100 event 2 position 89
+2023-03-15 22:12:02.840362 [INFO   ] [AUTO] order 708 filled for 11 lots at $150700 cents 2 events
+2023-03-15 22:12:02.840398 [INFO   ] [AUTO] Hedging 11 SELLLL
+2023-03-15 22:12:02.840421 [INFO   ] [AUTO] Current Position is 100 to buy 0 to sell 22
+2023-03-15 22:12:21.925415 [INFO   ] [AUTO] Hedge Selling Order710 for price 151200 vol 32 diff is 200 event 1 position 100
+2023-03-15 22:12:21.957870 [INFO   ] [AUTO] order 710 filled for 26 lots at $151200 cents 1 events
+2023-03-15 22:12:21.957904 [INFO   ] [AUTO] Hedging -26 BUYYYY
+2023-03-15 22:12:21.957938 [INFO   ] [AUTO] Current Position is 74 to buy 0 to sell 6
+2023-03-15 22:12:22.107417 [INFO   ] [AUTO] Hedge Selling Order712 for price 151100 vol 16 diff is 100 event 3 position 74
+2023-03-15 22:12:22.902958 [INFO   ] [AUTO] order 712 filled for 16 lots at $151100 cents 3 events
+2023-03-15 22:12:22.902992 [INFO   ] [AUTO] Hedging -16 BUYYYY
+2023-03-15 22:12:22.903022 [INFO   ] [AUTO] Current Position is 58 to buy 0 to sell 6
+2023-03-15 22:12:22.903037 [INFO   ] [AUTO] order 710 filled for 6 lots at $151200 cents 4 events
+2023-03-15 22:12:22.903042 [INFO   ] [AUTO] Hedging -6 BUYYYY
+2023-03-15 22:12:22.903052 [INFO   ] [AUTO] Current Position is 52 to buy 0 to sell 0
+2023-03-15 22:12:23.173929 [INFO   ] [AUTO] Hedge Selling Order715 for price 151400 vol 64 diff is 400 event 3 position 52
+2023-03-15 22:12:23.374909 [INFO   ] [AUTO] Hedge Selling Order716 for price 151300 vol 48 diff is 300 event 4 position 52
+2023-03-15 22:12:23.688459 [INFO   ] [AUTO] Hedge Selling Order717 for price 151200 vol 32 diff is 200 event 5 position 52
+2023-03-15 22:12:23.880256 [INFO   ] [AUTO] Hedge Selling Order718 for price 151100 vol 8 diff is 200 event 6 position 52
+2023-03-15 22:12:24.673366 [INFO   ] [AUTO] order 718 filled for 8 lots at $151100 cents 3 events
+2023-03-15 22:12:24.673427 [INFO   ] [AUTO] Hedging -8 BUYYYY
+2023-03-15 22:12:24.673484 [INFO   ] [AUTO] Current Position is 44 to buy 0 to sell 144
+2023-03-15 22:12:24.998014 [INFO   ] [AUTO] order 717 filled for 32 lots at $151200 cents 3 events
+2023-03-15 22:12:24.998105 [INFO   ] [AUTO] Hedging -32 BUYYYY
+2023-03-15 22:12:24.998149 [INFO   ] [AUTO] Current Position is 12 to buy 0 to sell 48
+2023-03-15 22:12:25.118817 [INFO   ] [AUTO] Hedge Selling Order721 for price 151300 vol 64 diff is 400 event 5 position 12
+2023-03-15 22:12:25.395905 [INFO   ] [AUTO] Hedge Selling Order722 for price 151200 vol 48 diff is 500 event 6 position 12
+2023-03-15 22:12:25.796460 [INFO   ] [AUTO] order 722 filled for 48 lots at $151200 cents 6 events
+2023-03-15 22:12:25.796542 [INFO   ] [AUTO] Hedging -48 BUYYYY
+2023-03-15 22:12:25.796608 [INFO   ] [AUTO] Current Position is -36 to buy 0 to sell 64
+2023-03-15 22:12:25.796636 [INFO   ] [AUTO] order 721 filled for 19 lots at $151300 cents 5 events
+2023-03-15 22:12:25.796653 [INFO   ] [AUTO] Hedging -19 BUYYYY
+2023-03-15 22:12:25.796716 [INFO   ] [AUTO] Current Position is -55 to buy 0 to sell 45
+2023-03-15 22:12:27.120383 [INFO   ] [AUTO] Hedge Selling Order725 for price 151200 vol 45 diff is 400 event 2 position -55
+2023-03-15 22:12:28.619330 [INFO   ] [AUTO] Hedge Buying Order726 for price 150900 vol 32 diff is 200 event 1 position -55
+2023-03-15 22:12:29.199839 [INFO   ] [AUTO] Hedge Selling Order727 for price 151100 vol 16 diff is 100 event 3 position -55
+2023-03-15 22:12:29.692904 [INFO   ] [AUTO] order 726 filled for 11 lots at $150900 cents 3 events
+2023-03-15 22:12:29.692964 [INFO   ] [AUTO] Hedging 11 SELLLL
+2023-03-15 22:12:29.693007 [INFO   ] [AUTO] Current Position is -44 to buy 21 to sell 16
+2023-03-15 22:12:29.693089 [INFO   ] [AUTO] order 727 filled for 16 lots at $151100 cents 2 events
+2023-03-15 22:12:29.693106 [INFO   ] [AUTO] Hedging -16 BUYYYY
+2023-03-15 22:12:29.693134 [INFO   ] [AUTO] Current Position is -60 to buy 21 to sell 0
+2023-03-15 22:12:29.927603 [INFO   ] [AUTO] Hedge Selling Order730 for price 151400 vol 40 diff is 500 event 4 position -60
+2023-03-15 22:12:31.858738 [INFO   ] [AUTO] Hedge Buying Order731 for price 150900 vol 40 diff is 300 event 2 position -60
+2023-03-15 22:12:31.858797 [INFO   ] [AUTO] Hedge Selling Order732 for price 151400 vol 40 diff is 300 event 3 position -60
+2023-03-15 22:12:32.351191 [INFO   ] [AUTO] order 732 filled for 12 lots at $151400 cents 3 events
+2023-03-15 22:12:32.351253 [INFO   ] [AUTO] Hedging -12 BUYYYY
+2023-03-15 22:12:32.351294 [INFO   ] [AUTO] Current Position is -72 to buy 40 to sell 28
+2023-03-15 22:12:32.351389 [INFO   ] [AUTO] order 732 filled for 8 lots at $151400 cents 4 events
+2023-03-15 22:12:32.351405 [INFO   ] [AUTO] Hedging -8 BUYYYY
+2023-03-15 22:12:32.351430 [INFO   ] [AUTO] Current Position is -80 to buy 40 to sell 20
+2023-03-15 22:12:32.375881 [INFO   ] [AUTO] Hedge Buying Order735 for price 151000 vol 48 diff is 300 event 6 position -80
+2023-03-15 22:12:32.692658 [INFO   ] [AUTO] Hedge Buying Order736 for price 151300 vol 80 diff is 500 event 6 position -80
+2023-03-15 22:12:32.913795 [INFO   ] [AUTO] Hedge Buying Order737 for price 151400 vol 12 diff is 400 event 6 position -80
+2023-03-15 22:12:32.913854 [INFO   ] [AUTO] Paying the fee
+2023-03-15 22:12:33.405947 [INFO   ] [AUTO] Hedge Buying Order738 for price 151400 vol 12 diff is 500 event 5 position -80
+2023-03-15 22:12:33.862883 [INFO   ] [AUTO] Hedge Buying Order739 for price 151500 vol 40 diff is 400 event 5 position -80
+2023-03-15 22:12:33.862984 [INFO   ] [AUTO] Paying the fee
+2023-03-15 22:12:33.872216 [INFO   ] [AUTO] order 739 filled for 33 lots at $151500 cents 6 events
+2023-03-15 22:12:33.872246 [INFO   ] [AUTO] Hedging 33 SELLLL
+2023-03-15 22:12:33.872292 [INFO   ] [AUTO] Current Position is -47 to buy 147 to sell 20
+2023-03-15 22:12:34.143629 [INFO   ] [AUTO] order 738 filled for 5 lots at $151400 cents 7 events
+2023-03-15 22:12:34.143660 [INFO   ] [AUTO] Hedging 5 SELLLL
+2023-03-15 22:12:34.143688 [INFO   ] [AUTO] Current Position is -42 to buy 142 to sell 20
+2023-03-15 22:12:34.450531 [INFO   ] [AUTO] Hedge Buying Order742 for price 151700 vol 55 diff is 400 event 8 position -42
+2023-03-15 22:12:34.621568 [INFO   ] [AUTO] Hedge Buying Order743 for price 151800 vol 80 diff is 500 event 7 position -42
+2023-03-15 22:12:34.621600 [INFO   ] [AUTO] Paying the fee
+2023-03-15 22:12:34.628329 [INFO   ] [AUTO] order 743 filled for 54 lots at $151800 cents 7 events
+2023-03-15 22:12:34.628340 [INFO   ] [AUTO] Hedging 54 SELLLL
+2023-03-15 22:12:34.628352 [INFO   ] [AUTO] Current Position is 12 to buy 88 to sell 20
+2023-03-15 22:12:35.185891 [INFO   ] [AUTO] Hedge Buying Order745 for price 151900 vol 26 diff is 300 event 7 position 12
+2023-03-15 22:12:35.410055 [INFO   ] [AUTO] Hedge Buying Order746 for price 152000 vol 7 diff is 500 event 6 position 12
+2023-03-15 22:12:35.410098 [INFO   ] [AUTO] Paying the fee
+2023-03-15 22:12:35.410429 [INFO   ] [AUTO] order 746 filled for 7 lots at $152000 cents 6 events
+2023-03-15 22:12:35.410438 [INFO   ] [AUTO] Hedging 7 SELLLL
+2023-03-15 22:12:35.410450 [INFO   ] [AUTO] Current Position is 19 to buy 81 to sell 20
+2023-03-15 22:12:36.414797 [INFO   ] [AUTO] Hedge Buying Order748 for price 152100 vol 55 diff is 400 event 4 position 19
+2023-03-15 22:12:37.138641 [INFO   ] [AUTO] Hedge Buying Order749 for price 152200 vol 26 diff is 200 event 3 position 19
+2023-03-15 22:12:38.453257 [INFO   ] [AUTO] Hedge Buying Order750 for price 152300 vol 48 diff is 300 event 2 position 19
+2023-03-15 22:12:38.453286 [INFO   ] [AUTO] Paying the fee
+2023-03-15 22:12:38.453883 [INFO   ] [AUTO] order 750 filled for 48 lots at $152300 cents 2 events
+2023-03-15 22:12:38.453889 [INFO   ] [AUTO] Hedging 48 SELLLL
+2023-03-15 22:12:38.453901 [INFO   ] [AUTO] Current Position is 67 to buy 26 to sell 20
+2023-03-15 22:12:38.628749 [INFO   ] [AUTO] Hedge Buying Order752 for price 152300 vol 7 diff is 400 event 4 position 67
+2023-03-15 22:12:38.628769 [INFO   ] [AUTO] Paying the fee
+2023-03-15 22:12:38.630586 [INFO   ] [AUTO] order 752 filled for 7 lots at $152300 cents 5 events
+2023-03-15 22:12:38.630592 [INFO   ] [AUTO] Hedging 7 SELLLL
+2023-03-15 22:12:38.630604 [INFO   ] [AUTO] Current Position is 74 to buy 26 to sell 20
+2023-03-15 22:12:39.141921 [INFO   ] [AUTO] Hedge Buying Order754 for price 152300 vol 26 diff is 200 event 6 position 74
+2023-03-15 22:12:39.141953 [INFO   ] [AUTO] Paying the fee
+2023-03-15 22:12:39.147747 [INFO   ] [AUTO] order 754 filled for 26 lots at $152300 cents 6 events
+2023-03-15 22:12:39.147756 [INFO   ] [AUTO] Hedging 26 SELLLL
+2023-03-15 22:12:39.147771 [INFO   ] [AUTO] Current Position is 100 to buy 0 to sell 20
+2023-03-15 22:12:56.705486 [INFO   ] [CON] 'Exec' remote disconnect
+2023-03-15 22:12:56.705527 [INFO   ] [AUTO] execution connection lost
+2023-03-15 22:12:56.705541 [INFO   ] [CON] 'Info' closing
+2023-03-15 22:12:56.705567 [INFO   ] [CON] 'Exec' closing

@@ -1,0 +1,54 @@
+2023-03-14 04:44:41.793760 [INFO   ] [APP] application started
+2023-03-14 04:44:41.793775 [INFO   ] [APP] loading configuration from 'autotrader2.json'
+2023-03-14 04:44:41.793855 [INFO   ] [CON] connecting to: 127.0.0.1:12345
+2023-03-14 04:44:41.793922 [INFO   ] [CON] connected successfully to: 127.0.0.1:12345
+2023-03-14 04:44:41.793936 [INFO   ] [BASE] logging in with teamname='TraderOne' and secret='secret'
+2023-03-14 04:44:41.794033 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 116100; ask volumes: 81; bid prices: 115800; bid volumes: 11
+2023-03-14 04:44:41.794041 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 116100; ask volumes: 12780; bid prices: 115800; bid volumes: 15060
+2023-03-14 04:44:41.794045 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 116100; ask volumes: 81; bid prices: 115800; bid volumes: 11
+2023-03-14 04:44:41.794054 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 116100; ask volumes: 15230; bid prices: 115900; bid volumes: 1000
+2023-03-14 04:44:41.794057 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 116100; ask volumes: 73; bid prices: 115600; bid volumes: 12
+2023-03-14 04:44:41.794074 [INFO   ] [AUTO] Hedge Buying Order1 for price 115700 vol 8 diff is 200 event 1 position 0
+2023-03-14 04:44:41.794080 [INFO   ] [AUTO] Hedge Buying Order2 for price 115700 vol 8 diff is 200 event 2 position 0
+2023-03-14 04:44:41.794082 [INFO   ] [AUTO] Hedge Buying Order3 for price 115700 vol 8 diff is 200 event 3 position 0
+2023-03-14 04:44:41.794084 [INFO   ] [AUTO] Hedge Buying Order4 for price 115700 vol 8 diff is 200 event 4 position 0
+2023-03-14 04:44:41.794102 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 116100; ask volumes: 12230; bid prices: 115900; bid volumes: 1000
+2023-03-14 04:44:41.794109 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 116100; ask volumes: 24; bid prices: 115700; bid volumes: 28
+2023-03-14 04:44:41.794121 [INFO   ] [AUTO] Hedge Buying Order5 for price 115800 vol 8 diff is 100 event 5 position 0
+2023-03-14 04:44:41.794123 [INFO   ] [AUTO] Hedge Buying Order6 for price 115800 vol 8 diff is 100 event 6 position 0
+2023-03-14 04:44:41.794141 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 116200; ask volumes: 15780; bid prices: 116000; bid volumes: 9000
+2023-03-14 04:44:41.794144 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 116100; ask volumes: 24; bid prices: 115800; bid volumes: 16
+2023-03-14 04:44:41.794156 [INFO   ] [AUTO] Hedge Buying Order7 for price 115900 vol 8 diff is 100 event 7 position 0
+2023-03-14 04:44:41.794158 [INFO   ] [AUTO] Hedge Buying Order8 for price 115900 vol 8 diff is 100 event 8 position 0
+2023-03-14 04:44:41.794173 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 116100; ask volumes: 2000; bid prices: 116000; bid volumes: 1000
+2023-03-14 04:44:41.794177 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 116100; ask volumes: 24; bid prices: 115900; bid volumes: 16
+2023-03-14 04:44:41.794181 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 116000; ask volumes: 4780; bid prices: 115900; bid volumes: 1000
+2023-03-14 04:44:41.794186 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 116100; ask volumes: 24; bid prices: 115900; bid volumes: 16
+2023-03-14 04:44:41.794193 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 116100; ask volumes: 4780; bid prices: 115900; bid volumes: 2450
+2023-03-14 04:44:41.794197 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 116200; ask volumes: 86; bid prices: 116100; bid volumes: 97
+2023-03-14 04:44:41.794200 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 116100; ask volumes: 10000; bid prices: 115900; bid volumes: 14100
+2023-03-14 04:44:41.794205 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 116200; ask volumes: 86; bid prices: 116100; bid volumes: 97
+2023-03-14 04:44:41.794229 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 116300; ask volumes: 4000; bid prices: 116100; bid volumes: 15120
+2023-03-14 04:44:41.794233 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 116200; ask volumes: 86; bid prices: 116100; bid volumes: 97
+2023-03-14 04:44:41.794262 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 116400; ask volumes: 1000; bid prices: 116200; bid volumes: 11780
+2023-03-14 04:44:41.794266 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 116200; ask volumes: 86; bid prices: 116100; bid volumes: 22
+2023-03-14 04:44:41.794289 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 116400; ask volumes: 1000; bid prices: 116200; bid volumes: 12270
+2023-03-14 04:44:41.794293 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 116200; ask volumes: 86; bid prices: 116100; bid volumes: 22
+2023-03-14 04:44:41.794323 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 116500; ask volumes: 11270; bid prices: 116300; bid volumes: 10000
+2023-03-14 04:44:41.794326 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 116500; ask volumes: 68; bid prices: 116200; bid volumes: 4
+2023-03-14 04:44:41.794347 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 116300; ask volumes: 19280; bid prices: 116100; bid volumes: 1000
+2023-03-14 04:44:41.794351 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 116500; ask volumes: 68; bid prices: 116200; bid volumes: 4
+2023-03-14 04:44:41.794355 [INFO   ] [AUTO] Should Sell
+2023-03-14 04:44:41.794363 [INFO   ] [AUTO] Hedge Selling Order9 for price 116400 vol 8 diff is 100 event 43 position 0
+2023-03-14 04:44:41.794365 [INFO   ] [AUTO] Should Sell
+2023-03-14 04:44:41.794369 [INFO   ] [AUTO] Hedge Selling Order10 for price 116400 vol 8 diff is 100 event 44 position 0
+2023-03-14 04:44:41.794380 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 116400; ask volumes: 1000; bid prices: 116200; bid volumes: 14170
+2023-03-14 04:44:41.794384 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 116400; ask volumes: 4; bid prices: 116200; bid volumes: 4
+2023-03-14 04:44:41.794387 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 116700; ask volumes: 12240; bid prices: 116400; bid volumes: 13310
+2023-03-14 04:44:41.794394 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 116400; ask volumes: 4; bid prices: 116200; bid volumes: 4
+2023-03-14 04:44:41.794397 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 117100; ask volumes: 11550; bid prices: 116900; bid volumes: 9780
+2023-03-14 04:44:41.794400 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 116400; ask volumes: 4; bid prices: 116300; bid volumes: 16
+2023-03-14 04:44:41.794402 [INFO   ] [AUTO] Waiting for event space
+2023-03-14 04:44:42.794812 [ERROR  ] [CON] 'Exec' send failed: Connection reset by peer
+2023-03-14 04:44:42.794903 [INFO   ] [CON] 'Info' closing
+2023-03-14 04:44:42.794941 [INFO   ] [CON] 'Exec' closing
